@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import Head from 'next/head';
 import Image from 'next/image';
 import Layout from '../layouts/layout';
@@ -6,6 +6,7 @@ import config from '../lib/config';
 import RecipeCard from '../components/RecipeCard';
 import StarRating from '../components/StarRating';
 import { Header } from 'flotiq-components-react';
+import { PlusIcon, MinusIcon } from '@heroicons/react/solid';
 
 const StepImage = ({ src, alt }) => {
     const [imageSrc, setImageSrc] = useState(src || '/images/placeholder.jpg');
@@ -25,7 +26,11 @@ const StepImage = ({ src, alt }) => {
         </div>
     );
 };
-
+const parseBaseServings = (servingString) => {
+    if (!servingString) return 12;
+    const match = servingString.match(/\d+/);
+    return match ? parseInt(match[0], 10) : 12;
+};
 const IngredientChecklist = ({ ingredients }) => {
     if (!ingredients || ingredients.length === 0) {
         return null;
@@ -62,10 +67,10 @@ const IngredientChecklist = ({ ingredients }) => {
     );
 };
 
-const RecipeTemplate = ({ post, pageContext, allRecipes, categories }) => {
+const RecipeTemplate = ({ post, pageContext, allRecipes, categories, siteConfig }) =>  {
     if (!post) {
         return (
-            <Layout allRecipesForSearch={allRecipes || []} categories={categories || []}>
+            <Layout allRecipesForSearch={allRecipes || []} categories={categories || [] } siteConfig={siteConfig || {}}>
                 <p>Receptet kunde inte laddas...</p>
             </Layout>
         );
@@ -79,9 +84,47 @@ const RecipeTemplate = ({ post, pageContext, allRecipes, categories }) => {
     };
 
     const recipe = post;
+       const baseServings = useMemo(() => parseBaseServings(recipe.servings), [recipe.servings]);
+    const [currentServings, setCurrentServings] = useState(baseServings);
+    const [scaledIngredients, setScaledIngredients] = useState(recipe.ingredients);
     const otherRecipes = pageContext.otherRecipes;
-    const siteUrl = config.siteMetadata.siteUrl; 
-    
+    const siteUrl = siteConfig?.siteUrl || 'https://bakatarta.se';
+       useEffect(() => {
+        const newServings = Number(currentServings);
+        if (isNaN(newServings) || newServings <= 0) {
+            setScaledIngredients(recipe.ingredients);
+            return;
+        }
+        const scalingFactor = newServings / baseServings;
+        const newIngredients = recipe.ingredients.map(ingredient => {
+            const originalAmountStr = String(ingredient.amount || '').replace(',', '.'); // Hantera kommatecken
+            const originalAmount = parseFloat(originalAmountStr);
+
+            if (isNaN(originalAmount)) {
+                return ingredient;
+            }
+            const newAmount = originalAmount * scalingFactor;
+            
+            let finalAmount;
+            if (newAmount < 1 && newAmount > 0) {
+                finalAmount = parseFloat(newAmount.toFixed(2));
+            } else if (newAmount < 10) {
+                finalAmount = parseFloat(newAmount.toFixed(1));
+            } else {
+                finalAmount = Math.round(newAmount);
+            }
+            return { ...ingredient, amount: finalAmount.toString() };
+        });
+        setScaledIngredients(newIngredients);
+    }, [currentServings, recipe.ingredients, baseServings]);
+
+    // 👇 دوال جديدة للتحكم في الأزرار
+    const handleServingChange = (amount) => {
+        setCurrentServings(prev => {
+            const newValue = prev + amount;
+            return newValue > 0 ? newValue : 1; // لا تسمح بأن يكون العدد أقل من 1
+        });
+    };
     const recipeSchema = {
         "@context": "https://schema.org/",
         "@type": "Recipe",
@@ -132,7 +175,8 @@ const RecipeTemplate = ({ post, pageContext, allRecipes, categories }) => {
         <Layout
             allRecipesForSearch={allRecipes}
             categories={categories}
-            title={`${recipe.name} | ${config.siteMetadata.title}`}
+             siteConfig={siteConfig}
+            title={`${recipe.name} | ${siteConfig.title || 'bakatårta.se'}`}
             description={recipe.description.replace(/<[^>]*>?/gm, '').substring(0, 160) + '...'}
             ogImage={recipe.image?.[0]?.url}
             ogType="article"
@@ -191,8 +235,30 @@ const RecipeTemplate = ({ post, pageContext, allRecipes, categories }) => {
                     <div className="flex flex-col md:flex-row p-6 md:p-10 border-t border-gray-extra-light">
                         <div className="w-full md:w-1/3 md:pr-8 mb-8 md:mb-0">
                              <Header level={2} additionalClasses={['!font-sora !text-2xl !font-bold !text-primary !mb-4']}>Ingredienser</Header>
-                             <IngredientChecklist ingredients={recipe.ingredients} />
+                              <div className="flex items-center justify-between bg-gray-50 p-2 rounded-full border border-gray-200 mb-6">
+                                <button 
+                                    onClick={() => handleServingChange(-1)}
+                                    className="bg-primary text-white rounded-full p-2 hover:bg-opacity-90 transition-all duration-200 disabled:bg-gray-300"
+                                    disabled={currentServings <= 1}
+                                    aria-label="Minska antal portioner"
+                                >
+                                    <MinusIcon className="h-5 w-5" />
+                                </button>
+                                <div className="text-center">
+                                    <span className="font-bold text-lg text-primary">{currentServings}</span>
+                                    <span className="text-sm text-gray-600"> portioner/bitar</span>
+                                </div>
+                                <button 
+                                    onClick={() => handleServingChange(1)}
+                                    className="bg-primary text-white rounded-full p-2 hover:bg-opacity-90 transition-all duration-200"
+                                    aria-label="Öka antal portioner"
+                                >
+                                    <PlusIcon className="h-5 w-5" />
+                                </button>
+                             </div>
+                             <IngredientChecklist ingredients={scaledIngredients} />
                         </div>
+                             
                         <div className="w-full md:w-2/3 md:pl-8 md:border-l border-gray-extra-light">
                             <Header level={2} additionalClasses={['!font-sora !text-2xl !font-bold !text-primary !mb-4']}>Gör så här</Header>
                             <div className="prose prose-lg max-w-none">
