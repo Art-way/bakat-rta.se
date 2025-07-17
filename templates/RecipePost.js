@@ -7,7 +7,8 @@ import RecipeCard from '../components/RecipeCard';
 import StarRating from '../components/StarRating';
 import { Header } from 'flotiq-components-react';
 import { PlusIcon, MinusIcon } from '@heroicons/react/solid';
-
+import RecipeInteraction from '../components/RecipeInteraction';
+import { useRouter } from 'next/router';
 const StepImage = ({ src, alt }) => {
     const [imageSrc, setImageSrc] = useState(src || '/images/placeholder.jpg');
     const handleImageError = () => {
@@ -170,7 +171,8 @@ const RecipeTemplate = ({ post, pageContext, allRecipes, categories, siteConfig 
             })
         })) || []
     };
-    
+     const router = useRouter();
+ const currentUrl = `${siteUrl}${router.asPath}`;
     return (
         <Layout
             allRecipesForSearch={allRecipes}
@@ -278,6 +280,12 @@ const RecipeTemplate = ({ post, pageContext, allRecipes, categories, siteConfig 
                             </div>
                         </div>
                     </div>
+                    <div className="p-6 md:p-10 border-t border-gray-extra-light">
+                      {recipe._id && (
+                             <RecipeInteraction recipeId={recipe._id} currentUrl={currentUrl} />
+                        )}
+                    </div>
+                
                 </article>
             </div>
             
