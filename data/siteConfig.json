@@ -1,0 +1,9 @@
+{
+  "title": "bakatårta.se - Recept från Elsas Kök",
+  "description": "Din guide till den perfekta kakan. Beprövade recept på svenska klassiker och moderna bakverk av Elsa Lundström.",
+  "siteUrl": "https://bakatarta.se",
+  "language": "sv",
+  "blog": {
+    "postPerPage": 9
+  }
+}

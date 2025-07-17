@@ -1,0 +1,1178 @@
+[
+  {
+    "id": "pinocchiotarta",
+    "name": "Klassisk Pinocchiotårta (Brittatårta)",
+    "slug": "pinocchiotarta",
+    "elsaIntro": "<p>Pinocchiotårtan, eller kära barn har många namn som man brukar säga! Denna tårta kallas även Brittatårta eller Herrgårdstårta. För mig är det smaken av svensk sommar, med sin sega maräng, saftiga sockerkaksbotten och krämiga fyllning. Det här är mitt bästa recept som aldrig slår fel!</p>",
+    "image": [
+      {
+        "id": "pinocchiotarta-img",
+        "url": "/images/recipes/pinocchiotarta-klassisk.jpg",
+        "alt": "En vacker Pinocchiotårta dekorerad med färska jordgubbar och blåbär."
+      }
+    ],
+    "steps": [
+      {
+        "step": "Sätt ugnen på 150°C. Klä en långpanna (ca 30x40 cm) med bakplåtspapper."
+      },
+      {
+        "step": "Sockerkaksbotten: Vispa smör och socker ljust och poröst. Tillsätt äggulorna, en i taget, under vispning."
+      },
+      {
+        "step": "Blanda mjöl och bakpulver. Vänd ner det i smeten växelvis med mjölken. Bred ut smeten jämnt på plåten."
+      },
+      {
+        "step": "Maräng: Vispa äggvitorna till ett fast skum. Tillsätt sockret lite i taget under fortsatt vispning tills du har en blank och styv maräng. Bred försiktigt marängen över sockerkakssmeten. Strö över mandelspån."
+      },
+      {
+        "step": "Grädda i nedre delen av ugnen i ca 30-35 minuter. Marängen ska vara gyllene och kakan genomgräddad. Låt kakan svalna helt på plåten."
+      },
+      {
+        "step": "Dela kakan på mitten. Lägg ena halvan på ett serveringsfat. Vispa grädden och bred ut den över bottnen. Strö över färska bär. Lägg den andra halvan ovanpå. Servera genast!"
+      }
+    ],
+    "servings": "Ca 12-15 bitar",
+    "cookingTime": "PT35M",
+    "prepTime": "PT25M",
+    "totalTime": "PT1H",
+    "description": "Detta är det definitiva receptet på Pinocchiotårta, även känd som Brittatårta eller Herrgårdstårta. En svensk klassiker med en botten av sockerkaka och maräng som bakas tillsammans, och fylls med vispad grädde och färska bär. Perfekt till alla sommarens firanden.",
+    "recipeCategory": "Marängtårta, Tårta, Svenska klassiker",
+    "recipeCuisine": "Svensk",
+    "keywords": "pinocchiotårta, brittatårta, herrgårdstårta, marängtårta, tårta, recept",
+    "datePublished": "2025-07-15",
+    "ingredients": [
+      { "product": "Sockerkaksbotten:" },
+      { "amount": "100", "unit": "g", "product": "rumsvarmt smör" },
+      { "amount": "1.5", "unit": "dl", "product": "strösocker" },
+      { "amount": "5", "unit": "st", "product": "äggulor" },
+      { "amount": "1.5", "unit": "dl", "product": "vetemjöl" },
+      { "amount": "2", "unit": "tsk", "product": "bakpulver" },
+      { "amount": "1", "unit": "dl", "product": "mjölk" },
+      { "product": "Maräng:" },
+      { "amount": "5", "unit": "st", "product": "äggvitor" },
+      { "amount": "3", "unit": "dl", "product": "strösocker" },
+      { "amount": "1", "unit": "dl", "product": "mandelspån" },
+      { "product": "Fyllning:" },
+      { "amount": "3", "unit": "dl", "product": "vispgrädde" },
+      { "amount": "1", "unit": "liter", "product": "färska bär (t.ex. jordgubbar och hallon)" }
+    ],
+    "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.8", "ratingCount": "1" },
+    "nutrition": { "@type": "NutritionInformation", "calories": "Cirka 350 kcal per bit" }
+  },
+  {
+    "id": "tarta-i-langpanna-grundrecept",
+    "name": "Grundrecept: Saftig Tårtbotten i Långpanna",
+    "slug": "tarta-i-langpanna-grundrecept",
+    "elsaIntro": "<p>Att baka till många kan kännas överväldigande, men med ett riktigt bra grundrecept på tårtbotten i långpanna blir det enkelt och roligt! Det här receptet är min räddare i nöden. Det är otroligt mångsidigt och blir alltid saftigt. Använd det som bas för dina egna kreativa tårtor!</p>",
+    "image": [
+      {
+        "id": "langpanna-grund-img",
+        "url": "/images/recipes/langpanna-grundrecept.jpg",
+        "alt": "En perfekt gräddad, gyllene tårtbotten i en långpanna."
+      }
+    ],
+    "steps": [
+      {
+        "step": "Sätt ugnen på 175°C. Klä en långpanna (ca 30x40 cm) med bakplåtspapper."
+      },
+      {
+        "step": "Vispa ägg och socker riktigt ljust och pösigt med en elvisp, det tar cirka 5 minuter."
+      },
+      {
+        "step": "Blanda vetemjöl, bakpulver och vaniljsocker i en separat skål."
+      },
+      {
+        "step": "Sikta ner mjölblandningen i äggsmeten och vänd försiktigt ihop med en slickepott. Tillsätt vattnet och rör till en jämn smet. Arbeta inte smeten för mycket."
+      },
+      {
+        "step": "Häll smeten i långpannan och bred ut den jämnt."
+      },
+      {
+        "step": "Grädda mitt i ugnen i cirka 20-25 minuter, eller tills en provsticka kommer ut torr. Låt svalna helt innan du använder den."
+      }
+    ],
+    "servings": "1 långpanna (ca 24-30 bitar)",
+    "cookingTime": "PT25M",
+    "prepTime": "PT15M",
+    "totalTime": "PT40M",
+    "description": "Ett pålitligt och enkelt grundrecept på en ljus och saftig tårtbotten som bakas i långpanna. Denna 'tårtbotten i långpanna' är den perfekta basen för alla sorters kalastårtor, från gräddtårtor med bär till fantasifulla kreationer med olika fyllningar och frosting.",
+    "recipeCategory": "Grundrecept, Tårtbotten, Långpannekaka",
+    "recipeCuisine": "Svensk",
+    "keywords": "tårtbotten i långpanna, grundrecept tårtbotten, kaka i långpanna, tårta till många",
+    "datePublished": "2025-07-16",
+    "ingredients": [
+      { "amount": "4", "unit": "st", "product": "stora ägg" },
+      { "amount": "4", "unit": "dl", "product": "strösocker" },
+      { "amount": "4", "unit": "dl", "product": "vetemjöl" },
+      { "amount": "3", "unit": "tsk", "product": "bakpulver" },
+      { "amount": "2", "unit": "tsk", "product": "vaniljsocker" },
+      { "amount": "2", "unit": "dl", "product": "kallt vatten" }
+    ],
+    "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "ratingCount": "1" },
+    "nutrition": { "@type": "NutritionInformation", "calories": "Cirka 150 kcal per bit (endast botten)" }
+  },
+  {
+    "id": "pavlova-med-bar",
+    "name": "Elegant Pavlova med Hallonmousse",
+    "slug": "pavlova-med-bar",
+    "elsaIntro": "<p>Pavlova är som en dröm! Krispig på utsidan, seg och mjuk som ett moln inuti. Till skillnad från Pinocchiotårtan är detta en ren marängbotten. Jag älskar att servera den med en lite syrlig mousse för att balansera sötman. Detta recept är en showstopper!</p>",
+    "image": [{ "id": "pavlova-img", "url": "/images/recipes/pavlova-hallonmousse.jpg", "alt": "En elegant Pavlova med virvlar av hallonmousse och färska bär." }],
+    "steps": [
+        {"step": "Sätt ugnen på 120°C. Rita en cirkel (ca 24 cm) på ett bakplåtspapper."},
+        {"step": "Vispa äggvitorna med en nypa salt tills det bildas mjuka toppar."},
+        {"step": "Tillsätt sockret lite i taget under vispning tills marängen är tjock, blank och styv."},
+        {"step": "Vänd försiktigt ner majsstärkelse och vinäger med en slickepott."},
+        {"step": "Bred ut marängen inom cirkeln på bakplåtspappret. Forma en liten fördjupning i mitten."},
+        {"step": "Grädda mitt i ugnen i ca 1.5 timme. Stäng av ugnen och låt marängen svalna helt inuti ugnen med luckan på glänt."},
+        {"step": "Hallonmousse: Gör en mousse och fyll pavlovan precis innan servering. Dekorera med färska hallon."}
+    ],
+    "servings": "Ca 10 bitar", "cookingTime": "PT90M", "prepTime": "PT20M", "totalTime": "PT1H50M",
+    "description": "Lär dig baka den perfekta Pavlovan, en elegant dessert med krispigt skal och mjuk, seg mitt. Fyll den med en lätt hallonmousse och färska bär för en oförglömlig smakupplevelse.",
+    "recipeCategory": "Marängtårta, Pavlova, Glutenfritt, Dessert", "recipeCuisine": "Internationell", "keywords": "pavlova, recept pavlova, maräng, hallonmousse, glutenfri tårta", "datePublished": "2025-07-17",
+    "ingredients": [
+        {"product": "Marängbotten:"},
+        {"amount": "4", "unit": "st", "product": "stora äggvitor"},
+        {"amount": "2.5", "unit": "dl", "product": "finkornigt strösocker"},
+        {"amount": "1", "unit": "tsk", "product": "majsstärkelse (Maizena)"},
+        {"amount": "1", "unit": "tsk", "product": "vitvinsvinäger"},
+        {"product": "Fyllning:"},
+        {"amount": "250", "unit": "g", "product": "hallon (för mousse)"},
+        {"amount": "3", "unit": "dl", "product": "vispgrädde"},
+        {"amount": "0.5", "unit": "dl", "product": "florsocker"}
+    ],
+    "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.7", "ratingCount": "15" },
+    "nutrition": { "@type": "NutritionInformation", "calories": "Cirka 280 kcal per bit" }
+  },
+  {
+    "id": "rice-krispies-tarta",
+    "name": "Seg och Krispig Rice Krispies-tårta",
+    "slug": "rice-krispies-tarta",
+    "elsaIntro": "<p>Detta är nostalgi i en tårtbit! Kombinationen av seg maräng, krispiga Rice Krispies och en len, syrlig citronkräm är helt oemotståndlig. En tårta som försvinner från fatet på nolltid.</p>",
+    "image": [{ "id": "ricekrispies-img", "url": "/images/recipes/ricekrispies-tarta.jpg", "alt": "En bit Rice Krispies-tårta med len gul kräm och chokladgarnering." }],
+    "steps": [
+        {"step": "Sätt ugnen på 150°C. Klä en långpanna (ca 25x35 cm) med bakplåtspapper."},
+        {"step": "Vispa äggvitorna hårt. Tillsätt sockret lite i taget och vispa till en fast maräng."},
+        {"step": "Vänd försiktigt ner Rice Krispies i marängen. Bred ut smeten på plåten."},
+        {"step": "Grädda i ca 60 minuter. Låt svalna helt."},
+        {"step": "Gul kräm: Sjud äggulor, socker och grädde i en kastrull på svag värme under konstant omrörning tills krämen tjocknar. Får ej koka! Ta från värmen och rör i smör och citronsaft."},
+        {"step": "Dela marängbottnen på mitten. Bred krämen över ena halvan och lägg den andra ovanpå. Garnera med smält choklad."}
+    ],
+    "servings": "Ca 12 bitar", "cookingTime": "PT60M", "prepTime": "PT25M", "totalTime": "PT1H25M",
+    "description": "En älskad klassiker som kombinerar seg maräng med krispiga puffade risflingor. Fylld med en ljuvlig citronkräm och toppad med choklad är denna Rice Krispies-tårta en given favorit på fikabordet.",
+    "recipeCategory": "Marängtårta, Tårta, Glutenfritt (med glutenfria flingor)", "recipeCuisine": "Svensk", "keywords": "rice krispies tårta, marängkrisptårta, tårta med citronkräm, frasig tårta", "datePublished": "2025-07-18",
+    "ingredients": [
+        {"product": "Marängbotten:"},
+        {"amount": "4", "unit": "st", "product": "äggvitor"},
+        {"amount": "3", "unit": "dl", "product": "socker"},
+        {"amount": "4", "unit": "dl", "product": "Rice Krispies (eller glutenfria puffade ris)"},
+        {"product": "Citronkräm (Gul kräm):"},
+        {"amount": "4", "unit": "st", "product": "äggulor"},
+        {"amount": "1", "unit": "dl", "product": "socker"},
+        {"amount": "1", "unit": "dl", "product": "vispgrädde"},
+        {"amount": "100", "unit": "g", "product": "smör"},
+        {"amount": "1", "unit": "st", "product": "saften från 1 citron"},
+        {"product": "Garnering:"},
+        {"amount": "50", "unit": "g", "product": "mörk choklad, smält"}
+    ],
+    "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "ratingCount": "32" },
+    "nutrition": { "@type": "NutritionInformation", "calories": "Cirka 380 kcal per bit" }
+  },
+  {
+  "id": "pasktarta-med-marang-och-lemoncurd",
+  "name": "Saftig Påsktårta i Långpanna med Maräng och Lemoncurd",
+  "slug": "pasktarta-med-marang-och-lemoncurd",
+  "elsaIntro": "<p>När påsken närmar sig finns det inget som lyser upp fikabordet som en riktigt vacker och god påsktårta. Min absoluta favorit, som har blivit en tradition i vår familj, är denna ljuvliga kombination av en saftig vaniljbotten, ett krispigt och segt marängtäcke, och en hemgjord, syrlig lemon curd som balanserar sötman till perfektion. Det bästa av allt? Den bakas smidigt i långpanna, så den räcker garanterat till hela påskfirandet med släkt och vänner!</p>",
+  "image": [{
+    "id": "pasktarta-langpanna-img",
+    "url": "/images/recipes/pasktarta-langpanna.jpg",
+    "alt": "En vacker påsktårta i långpanna, dekorerad med marängtoppar, lemon curd och små chokladägg."
+  }],
+  "steps": [
+    {"step": "Sätt ugnen på 175°C. Klä en långpanna (ca 30x40 cm) med bakplåtspapper."},
+    {"step": "Börja med bottnen: Vispa ägg och socker ljust och pösigt. Blanda de torra ingredienserna och vänd ner dem i smeten växelvis med vattnet. Bred ut smeten jämnt i långpannan."},
+    {"step": "Marängen: Vispa äggvitorna till ett hårt skum. Tillsätt sockret lite i taget under fortsatt vispning tills du har en blank och styv maräng."},
+    {"step": "Klicka eller spritsa ut marängen över sockerkakssmeten. Du kan skapa ett vackert, vågigt mönster."},
+    {"step": "Grädda i nedre delen av ugnen i ca 25-30 minuter. Marängen ska få en lätt gyllene färg. Låt kakan svalna helt."},
+    {"step": "Montering: Dela kakan på mitten. Bred ett lager vispad grädde på den ena bottnen. Klicka över rikligt med <a href='/recept/lemon-curd' class='text-secondary hover:underline'>hemgjord lemon curd</a>."},
+    {"step": "Lägg den andra halvan ovanpå. Dekorera med extra grädde, mer lemon curd, och påskgodis som små chokladägg eller marsipankycklingar. Servera och njut!"}
+  ],
+  "servings": "Ca 20-24 bitar",
+  "cookingTime": "PT30M",
+  "prepTime": "PT30M",
+  "totalTime": "PT1H",
+  "description": "<h3>Den Perfekta Tårtan för Påskfirandet</h3><p>Denna <strong>påsktårta i långpanna</strong> är den ultimata lösningen för påskens fikabord. Den kombinerar klassiska smaker som älskas av alla och är enkel att förbereda för många gäster. Marängtäcket ger en härlig texturkontrast till den saftiga vaniljbotten, och den syrliga lemon curden lyfter hela upplevelsen. Detta recept på <strong>påsktårta med maräng</strong> är inte bara otroligt gott, utan också vackert att se på. Du kan enkelt förbereda både botten och lemon curd dagen innan för ett stressfritt firande.</p><p>Letar du efter en annan typ av marängtårta? Missa inte vår guide till <a href='/recept/pinocchiotarta' class='text-secondary hover:underline'>klassisk Pinocchiotårta</a>.</p>",
+  "recipeCategory": "Marängtårta, Tårta, Långpannekaka, Högtid, Påsk",
+  "recipeCuisine": "Svensk",
+  "keywords": "påsktårta, påsktårta i långpanna, påsktårta maräng, påsktårta med maräng, påsktårta maräng lemoncurd, enkel marängtårta i långpanna, tårta till många",
+  "datePublished": "2025-03-20",
+  "ingredients": [
+    {"product": "Saftig botten:"},
+    {"amount": "4", "unit": "st", "product": "ägg"},
+    {"amount": "3", "unit": "dl", "product": "socker"},
+    {"amount": "4", "unit": "dl", "product": "vetemjöl"},
+    {"amount": "2", "unit": "tsk", "product": "bakpulver"},
+    {"amount": "1.5", "unit": "dl", "product": "kallt vatten"},
+    {"product": "Marängtäcke:"},
+    {"amount": "4", "unit": "st", "product": "äggvitor"},
+    {"amount": "3", "unit": "dl", "product": "strösocker"},
+    {"product": "Fyllning & Garnering:"},
+    {"amount": "5", "unit": "dl", "product": "vispgrädde"},
+    {"amount": "2", "unit": "dl", "product": "lemon curd (gärna hemgjord)"},
+    {"amount": "1", "unit": "dl", "product": "påskgodis (t.ex. små chokladägg)"}
+  ],
+  "aggregateRating": {"@type": "AggregateRating", "ratingValue": "4.8", "ratingCount": "18"},
+  "nutrition": {"@type": "NutritionInformation", "calories": "Cirka 320 kcal per bit"}
+},
+{
+  "id": "hjarttarta-med-mandel-och-vaniljkram",
+  "name": "Romantisk Hjärttårta till Alla Hjärtans Dag",
+  "slug": "hjarttarta-med-mandel-och-vaniljkram",
+  "elsaIntro": "<p>Finns det ett vackrare sätt att visa kärlek än med något hembakat? Denna hjärtformade tårta är skapad för just de där speciella stunderna. Den har en otroligt saftig och smakrik mandelbotten, fylld med en len och krämig vaniljkräm som smälter i munnen. Låt dig inte luras av dess eleganta utseende – den är förvånansvärt enkel att baka och blir garanterat en uppskattad överraskning på Alla hjärtans dag, en bröllopsdag, eller när du bara vill fira kärleken lite extra.</p>",
+  "image": [{
+    "id": "hjarttarta-alla-hjartans-dag-img",
+    "url": "/images/recipes/hjarttarta-alla-hjartans-dag.jpg",
+    "alt": "En vacker hjärtformad tårta med vaniljkräm, toppad med färska hallon och ett puder av florsocker."
+  }],
+  "steps": [
+    {"step": "Sätt ugnen på 175°C. Smörj och bröa en hjärtformad springform (ca 24 cm)."},
+    {"step": "Mandelbotten: Riv mandelmassan grovt. Vispa den mjuk med sockret. Tillsätt ett ägg i taget och vispa till en slät smet."},
+    {"step": "Smält smöret och låt det svalna något. Rör ner det i smeten. Sikta ner mjöl och bakpulver och vänd försiktigt ihop allt till en jämn smet."},
+    {"step": "Häll smeten i formen och grädda i ca 25-30 minuter. Känn med en sticka att den är klar. Låt svalna helt."},
+    {"step": "Vaniljkräm: Koka upp mjölk, grädde och vaniljstång (urskrapade frön och stång). Vispa ihop äggulor, socker och majsstärkelse i en bunke. Häll den heta mjölken över äggblandningen under vispning. Häll tillbaka allt i kastrullen och sjud under omrörning tills krämen tjocknar. Låt svalna."},
+    {"step": "Dela den avsvalnade tårtbottnen i två delar. Bred ut vaniljkrämen på den undre delen. Lägg på den övre delen."},
+    {"step": "Pudra tårtan med florsocker och dekorera med färska hallon eller jordgubbar. För en extra romantisk touch, varför inte lägga till några ätbara blommor?"}
+  ],
+  "servings": "Ca 10-12 bitar",
+  "cookingTime": "PT30M",
+  "prepTime": "PT40M",
+  "totalTime": "PT1H10M",
+  "description": "<h3>En Tårta från Hjärtat</h3><p>Denna <strong>hjärttårta</strong> är den perfekta symbolen för kärlek och omtanke. Receptet bygger på en saftig <strong>tårta med mandelmassa</strong>, vilket ger en underbart fyllig och lyxig smak som är svår att motstå. Den hemgjorda vaniljkrämen är pricken över i:et och gör denna <strong>hjärtformade mjuka kaka</strong> till något alldeles extra. Perfekt som <strong>alla hjärtans dag tårta</strong>, men passar lika bra när du vill fira någon du håller kär. Om du gillar krämiga fyllningar, rekommenderar vi även att du provar vårt grundrecept på <a href='/recept/mandelkram-frangipane' class='text-secondary hover:underline'>frangipane (mandelkräm)</a>, som är fantastisk i pajer.</p>",
+  "recipeCategory": "Tårta, Högtid, Alla Hjärtans Dag",
+  "recipeCuisine": "Svensk",
+  "keywords": "hjärttårta, tårta hjärta, alla hjärtans dag tårta, tårta med mandelmassa, marängtårta med vaniljkräm, hjärtformad mjuk kaka, recept",
+  "datePublished": "2025-02-01",
+  "ingredients": [
+    {"product": "Mandelbotten:"},
+    {"amount": "200", "unit": "g", "product": "mandelmassa"},
+    {"amount": "0.5", "unit": "dl", "product": "strösocker"},
+    {"amount": "3", "unit": "st", "product": "ägg"},
+    {"amount": "50", "unit": "g", "product": "smör"},
+    {"amount": "0.5", "unit": "dl", "product": "vetemjöl"},
+    {"amount": "1", "unit": "tsk", "product": "bakpulver"},
+    {"product": "Vaniljkräm:"},
+    {"amount": "2.5", "unit": "dl", "product": "mjölk"},
+    {"amount": "0.5", "unit": "dl", "product": "vispgrädde"},
+    {"amount": "1", "unit": "st", "product": "vaniljstång"},
+    {"amount": "4", "unit": "st", "product": "äggulor"},
+    {"amount": "0.75", "unit": "dl", "product": "strösocker"},
+    {"amount": "2", "unit": "msk", "product": "majsstärkelse"},
+    {"product": "Garnering:"},
+    {"amount": "", "unit": "", "product": "Florsocker och färska bär"}
+  ],
+  "aggregateRating": {"@type": "AggregateRating", "ratingValue": "4.9", "ratingCount": "22"},
+  "nutrition": {"@type": "NutritionInformation", "calories": "Cirka 380 kcal per bit"}
+},
+{
+  "id": "kolatarta-med-mandelbotten",
+  "name": "Seg Kolatårta (Tjinuskikaka) med Rostad Mandelbotten",
+  "slug": "kolatarta-med-mandelbotten",
+  "elsaIntro": "<p>Varning för en beroendeframkallande tårta! För alla oss som verkligen, verkligen älskar den där djupa, sega och nästan knäckiga smaken av perfekt kola är det här en absolut dröm. Vi bygger den på en rostad mandelbotten som ger ett underbart tuggmotstånd och en nötig bas till den otroligt fylliga kolakrämen, även känd som 'Tjinuski'. Det är en dessert som kräver lite kärlek och tålamod vid spisen, men jag lovar – den belönar dig tusenfalt!</p>",
+  "image": [{
+    "id": "kolatarta-mandelbotten-img",
+    "url": "/images/recipes/kolatarta-mandelbotten.jpg",
+    "alt": "En glansig och seg kolatårta med mandelbotten, en bit är uppskuren för att visa den sega texturen."
+  }],
+  "steps": [
+    {"step": "Sätt ugnen på 175°C. Smörj en springform (ca 22 cm) och klä bottnen med bakplåtspapper."},
+    {"step": "Mandelbotten: Finhacka mandeln. Vispa äggvitorna till ett fast skum. Tillsätt sockret lite i taget och vispa till en seg maräng. Vänd försiktigt ner den hackade mandeln."},
+    {"step": "Bred ut smeten i formen och grädda i ca 25-30 minuter. Låt svalna."},
+    {"step": "Kolakräm (Tjinuski): Smält smöret i en tjockbottnad kastrull. Tillsätt grädde, socker och sirap. Koka upp under omrörning."},
+    {"step": "Låt kolan koka på medelvärme, utan att röra, tills den når 120-122°C (använd en digital termometer). Detta kan ta 20-40 minuter. Alternativt, gör ett kulprov."},
+    {"step": "Ta kastrullen från värmen. Låt kolan svalna något och häll den sedan försiktigt över den avsvalnade mandelbottnen i formen."},
+    {"step": "Låt tårtan stelna helt i kylskåp i minst 4-5 timmar, men gärna över natten. Servera kall."}
+  ],
+  "servings": "Ca 12 bitar",
+  "cookingTime": "PT60M",
+  "prepTime": "PT20M",
+  "totalTime": "PT1H20M",
+  "description": "<h3>En Dröm för Kolaälskaren</h3><p>Denna <strong>kolatårta</strong>, som i Finland ofta kallas <strong>Tjinuskikaka</strong>, är en intensiv och oförglömlig upplevelse. Receptet bygger på en enkel men genialisk idé: en seg och knäckig <strong>kolatårta med mandelbotten</strong>. Att koka kolan till rätt temperatur är nyckeln till framgång för att få den perfekta sega konsistensen. Denna tårta är naturligt glutenfri och håller sig bra i kylen i flera dagar – smaken blir nästan ännu bättre dagen efter! Om du gillar sega tårtor med nötter, kan du även uppskatta vår <a href='/recept/rice-krispies-tarta' class='text-secondary hover:underline'>Rice Krispies-tårta</a>.</p>",
+  "recipeCategory": "Tårta, Kola, Glutenfritt",
+  "recipeCuisine": "Nordisk",
+  "keywords": "kolatårta, kolatårta med mandelbotten, tjinuski, marängtårta kola, seg kolatårta, recept",
+  "datePublished": "2025-10-15",
+  "ingredients": [
+    {"product": "Mandelbotten:"},
+    {"amount": "3", "unit": "st", "product": "äggvitor"},
+    {"amount": "2", "unit": "dl", "product": "strösocker"},
+    {"amount": "150", "unit": "g", "product": "sötmandel"},
+    {"product": "Kolakräm (Tjinuski):"},
+    {"amount": "100", "unit": "g", "product": "smör"},
+    {"amount": "2", "unit": "dl", "product": "vispgrädde"},
+    {"amount": "3", "unit": "dl", "product": "strösocker"},
+    {"amount": "1", "unit": "dl", "product": "ljus sirap"}
+  ],
+  "aggregateRating": {"@type": "AggregateRating", "ratingValue": "4.7", "ratingCount": "25"},
+  "nutrition": {"@type": "NutritionInformation", "calories": "Cirka 410 kcal per bit"}
+},
+{
+  "id": "chokladtarta-hallon-kola",
+  "name": "Lyxig Chokladtårta med Hallonkompott och Salted Caramel",
+  "slug": "chokladtarta-hallon-kola",
+  "elsaIntro": "<p>Ibland vill man bara ha allt! Detta är tårtan för de där tillfällena. En intensiv och mörk chokladbotten möter en syrlig och fräsch hallonkompott, och allt kröns med en len smörkräm smaksatt med salt karamell. Det är en symfoni av smaker – djupt, friskt, sött och salt i en och samma tugga. Den ser avancerad ut, men jag har brutit ner receptet i enkla, hanterbara steg så att du kan skapa denna showstopper hemma i ditt eget kök.</p>",
+  "image": [{
+    "id": "choklad-hallon-kola-tarta-img",
+    "url": "/images/recipes/choklad-hallon-kola-tarta.jpg",
+    "alt": "En hög och elegant chokladtårta i flera lager, med hallonfyllning och kolasmörkräm, dekorerad med färska hallon."
+  }],
+  "steps": [
+    {"step": "Chokladbotten: Sätt ugnen på 175°C. Smörj och bröa två runda formar (20 cm). Följ ett standardrecept på en rik chokladkaka/browniebotten och fördela smeten i formarna. Grädda och låt svalna helt."},
+    {"step": "Hallonkompott: Koka upp hallon och socker i en kastrull. Låt sjuda i ca 10 min tills det tjocknar. Rör i citronsaft. Låt svalna helt."},
+    {"step": "Salted Caramel Smörkräm: Gör en schweizisk marängsmörkräm som bas. Tillsätt sedan en kyld, hemgjord salt karamellsås lite i taget under vispning tills du har en slät och krämig frosting."},
+    {"step": "Montering: Dela varje tårtbotten horisontellt. Varva bottnar med ett tunt lager hallonkompott och ett generöst lager kolasmörkräm."},
+    {"step": "Spackla hela tårtan med resterande smörkräm. Använd en palettkniv för att få en slät yta."},
+    {"step": "Dekorera tårtan med färska hallon, extra karamellsås och kanske lite flingsalt. Låt stå svalt innan servering."}
+  ],
+  "servings": "Ca 12-14 bitar",
+  "cookingTime": "PT40M",
+  "prepTime": "PT60M",
+  "totalTime": "PT1H40M",
+  "description": "<h3>En Tårta med Allt Det Goda</h3><p>Denna magnifika <strong>chokladtårta med hallon</strong> och kola är en riktig festtårta. Den kombinerar tre av de mest älskade smakerna till en harmonisk helhet. Den rika chokladsmaken, syran från hallonen och den söta, salta kolan skapar en komplex och vuxen smakprofil. Receptet innehåller instruktioner för en fantastisk <strong>smörkräm med hallon</strong>- och kolasmak som är både stabil och ljuvligt god. Detta är en mer avancerad version av en <strong>klassisk chokladtårta</strong>, men resultatet är väl värt ansträngningen.</p>",
+  "recipeCategory": "Tårta, Choklad, Festtårta",
+  "recipeCuisine": "Internationell",
+  "keywords": "chokladtårta med hallon, choklad hallon tårta, enkel chokladtårta med hallon, klassisk chokladtårta, smörkräm hallon, chokladtårta kola",
+  "datePublished": "2025-09-05",
+  "ingredients": [
+    {"product": "Mörka Chokladbottnar (x2):"},
+    {"amount": "200", "unit": "g", "product": "mörk choklad (70%)"},
+    {"amount": "200", "unit": "g", "product": "smör"},
+    {"amount": "4", "unit": "st", "product": "ägg"},
+    {"amount": "3", "unit": "dl", "product": "socker"},
+    {"amount": "2.5", "unit": "dl", "product": "vetemjöl"},
+    {"product": "Hallonkompott:"},
+    {"amount": "250", "unit": "g", "product": "frysta hallon"},
+    {"amount": "1", "unit": "dl", "product": "socker"},
+    {"product": "Salted Caramel Smörkräm:"},
+    {"amount": "4", "unit": "st", "product": "äggvitor"},
+    {"amount": "2.5", "unit": "dl", "product": "socker"},
+    {"amount": "300", "unit": "g", "product": "rumsvarmt smör"},
+    {"amount": "1", "unit": "dl", "product": "kyld salt karamellsås"}
+  ],
+  "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "ratingCount": "12"},
+  "nutrition": {"@type": "NutritionInformation", "calories": "Cirka 480 kcal per bit"}
+},
+{
+  "id": "klassiska-kanelbullar",
+  "name": "Världens Godaste Kanelbullar – Saftiga & Fluffiga",
+  "slug": "klassiska-kanelbullar",
+  "elsaIntro": "<p>Finns det något som doftar mer 'hemma' och 'fika' än nygräddade kanelbullar? Jag tror inte det. Detta är inte bara ett recept; det är en kärleksförklaring till den svenska bullen. Genom åren har jag testat otaliga varianter, och detta är resultatet – ett recept som garanterar otroligt saftiga, fluffiga och smakrika kanelbullar varje gång. Hemligheten ligger i ett väl arbetat fördeg och rikligt med rumsvarmt smör i fyllningen. Låt oss baka en plåt med ren och skär lycka!</p>",
+  "image": [{
+    "id": "kanelbullar-klassiska-img",
+    "url": "/images/recipes/klassiska-kanelbullar.jpg",
+    "alt": "En hög med nygräddade, gyllenbruna och saftiga kanelbullar, toppade med pärlsocker, på ett rustikt träbord."
+  }],
+  "steps": [
+    {"step": "Fördeg: Smula ner jästen i en bunke. Värm mjölken till fingervarmt (37°C), häll den över jästen och rör tills den lösts upp. Tillsätt socker, kardemumma och hälften av mjölet. Arbeta ihop till en lös deg och låt jäsa under duk i 30 minuter."},
+    {"step": "Huvuddeg: Tillsätt resten av mjölet, socker och salt i fördegen. Knåda degen smidig i maskin i ca 10 minuter. Tillsätt det rumsvarma smöret i små klickar och knåda ytterligare 5-7 minuter tills degen är elastisk och släpper bunkens kanter."},
+    {"step": "Låt degen jäsa under duk till dubbel storlek, cirka 60-90 minuter."},
+    {"step": "Kavla ut degen till en stor rektangel på ett lätt mjölat bakbord. Bred på det rumsvarma smöret för fyllningen. Blanda socker och kanel och strö över jämnt."},
+    {"step": "Vik degen dubbel på längden. Kavla lätt. Skär ca 2 cm breda remsor. Tvinna varje remsa och forma till en knut. Lägg bullarna på plåtar med bakplåtspapper."},
+    {"step": "Låt bullarna jäsa under duk i ca 60 minuter. Sätt ugnen på 225°C."},
+    {"step": "Pensla bullarna med uppvispat ägg och strö över rikligt med pärlsocker."},
+    {"step": "Grädda mitt i ugnen i 8-12 minuter tills de är gyllenbruna. Låt svalna på galler under en bakduk."}
+  ],
+  "servings": "Ca 30-35 bullar",
+  "cookingTime": "PT12M",
+  "prepTime": "PT45M",
+  "totalTime": "PT3H30M",
+  "description": "<h3>Konsten att Baka Perfekta Kanelbullar</h3><p>Detta <strong>recept på kanelbullar</strong> är din biljett till de mest fantastiska <strong>hembakade kanelbullar</strong> du kan tänka dig. Vi använder en fördeg för att utveckla smakerna och säkerställa att du får riktigt <strong>saftiga kanelbullar</strong>. Följ stegen noggrant så kommer du att belönas med ett resultat som överträffar alla förväntningar. Perfekt för en klassisk svensk <strong>fika</strong>! Vill du lyxa till det ytterligare? Prova att byta ut kanelfyllningen mot vår fantastiska <a href='/recept/hemgjord-vaniljkram' class='text-secondary hover:underline'>hemgjorda vaniljkräm</a> för en oförglömlig vaniljbulle.</p>",
+  "recipeCategory": "Bullar, Fika, Svenska klassiker",
+  "recipeCuisine": "Svensk",
+  "keywords": "kanelbullar, kanelbullar recept, recept kanelbullar, hembakade kanelbullar, saftiga kanelbullar, fika, vetebröd",
+  "datePublished": "2025-09-20",
+  "ingredients": [
+    {"product": "Fördeg:"},
+    {"amount": "50", "unit": "g", "product": "färsk jäst"},
+    {"amount": "5", "unit": "dl", "product": "mjölk, 3%"},
+    {"amount": "1", "unit": "dl", "product": "strösocker"},
+    {"amount": "1", "unit": "msk", "product": "stött kardemumma"},
+    {"amount": "500", "unit": "g", "product": "vetemjöl special (ca 8 dl)"},
+    {"product": "Huvuddeg:"},
+    {"amount": "500", "unit": "g", "product": "vetemjöl special (ca 8 dl)"},
+    {"amount": "1", "unit": "dl", "product": "strösocker"},
+    {"amount": "1", "unit": "tsk", "product": "salt"},
+    {"amount": "150", "unit": "g", "product": "rumsvarmt smör"},
+    {"product": "Fyllning:"},
+    {"amount": "150", "unit": "g", "product": "rumsvarmt smör"},
+    {"amount": "1", "unit": "dl", "product": "strösocker"},
+    {"amount": "2", "unit": "msk", "product": "mald kanel"},
+    {"product": "Pensling & Garnering:"},
+    {"amount": "1", "unit": "st", "product": "ägg"},
+    {"amount": "", "unit": "", "product": "pärlsocker"}
+  ],
+  "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "ratingCount": "45"},
+  "nutrition": {"@type": "NutritionInformation", "calories": "Cirka 280 kcal per bulle"}
+},
+{
+  "id": "klassiska-chokladbollar",
+  "name": "Enkla & Klassiska Chokladbollar",
+  "slug": "klassiska-chokladbollar",
+  "elsaIntro": "<p>Detta är receptet som alla kan lyckas med! Chokladbollen är en sann svensk ikon, älskad av både barn och vuxna. Det är ofta det allra första bakverket man lär sig att göra, och glädjen i att rulla de där kladdiga bollarna i pärlsocker är oslagbar. Mitt recept är klassiskt och enkelt, med en liten hemlighet för extra god smak – en skvätt starkt, kallt kaffe. Detta är den perfekta 'no-bake' godsaken när sötsuget slår till!</p>",
+  "image": [{
+    "id": "chokladbollar-klassiska-img",
+    "url": "/images/recipes/klassiska-chokladbollar.jpg",
+    "alt": "En pyramid av hemgjorda klassiska chokladbollar rullade i pärlsocker, serverade på ett elegant fat."
+  }],
+  "steps": [
+    {"step": "Blanda smör, socker och vaniljsocker i en bunke. Vispa med elvisp tills det blir ljust och krämigt."},
+    {"step": "Tillsätt kakao och det kalla kaffet. Vispa lite till så allt blandas väl."},
+    {"step": "Rör ner havregrynen, lite i taget, med en slev eller för hand. Blanda till en fast och jämn smet."},
+    {"step": "Låt smeten stå i kylen i cirka 30 minuter så blir den lättare att rulla."},
+    {"step": "Forma smeten till små, runda bollar. Rulla dem sedan i pärlsocker (eller kokosflingor) som du har hällt upp på en tallrik."},
+    {"step": "Förvara chokladbollarna i kylen. De är godast när de är lite kalla. Njut!"}
+  ],
+  "servings": "Ca 25-30 stycken",
+  "cookingTime": "PT0M",
+  "prepTime": "PT20M",
+  "totalTime": "PT50M",
+  "description": "<h3>Sveriges Mest Älskade No-Bake Fika</h3><p>Här är det definitiva <strong>receptet på chokladbollar</strong>. Dessa <strong>enkla chokladbollar</strong>, ibland kallade <strong>havrebollar</strong>, är en räddare i nöden och kräver ingen ugn. Nyckeln till en riktigt god chokladboll ligger i bra råvaror: äkta smör, högkvalitativ kakao och en skvätt starkt kaffe som lyfter chokladsmaken till nya höjder. Det är det perfekta receptet att göra tillsammans med barnen. Om du älskar choklad lika mycket som jag, får du inte missa vår guide till den perfekta <a href='/kladdkaka' class='text-secondary hover:underline'>kladdkakan</a> – en annan chokladdröm!</p>",
+  "recipeCategory": "No-bake, Fika, Choklad",
+  "recipeCuisine": "Svensk",
+  "keywords": "chokladbollar, chokladbollar recept, enkla chokladbollar, recept chokladbollar, havrebollar, no-bake, fika",
+  "datePublished": "2025-08-10",
+  "ingredients": [
+    {"amount": "150", "unit": "g", "product": "rumsvarmt smör"},
+    {"amount": "1.5", "unit": "dl", "product": "strösocker"},
+    {"amount": "1", "unit": "msk", "product": "vaniljsocker"},
+    {"amount": "3", "unit": "msk", "product": "kakao av hög kvalitet"},
+    {"amount": "2", "unit": "msk", "product": "starkt, kallt kaffe (eller vatten)"},
+    {"amount": "4", "unit": "dl", "product": "havregryn"},
+    {"product": "Garnering:"},
+    {"amount": "1.5", "unit": "dl", "product": "pärlsocker eller kokosflingor"}
+  ],
+  "aggregateRating": {"@type": "AggregateRating", "ratingValue": "4.9", "ratingCount": "58"},
+  "nutrition": {"@type": "NutritionInformation", "calories": "Cirka 80 kcal per boll"}
+},
+{
+  "id": "hemgjord-vaniljkram",
+  "name": "Grundrecept: Äkta Hemgjord Vaniljkräm (Pastry Cream)",
+  "slug": "hemgjord-vaniljkram",
+  "elsaIntro": "<p>Glöm pulvermixer och färdiga krämer! Att göra sin egen vaniljkräm från grunden är en av de mest belönande sakerna i köket och höjer dina bakverk till en helt ny nivå. Detta är mitt hemliga vapen! En len, krämig och intensivt vaniljsmakande kräm, spräcklig med äkta vaniljfrön. Den är tjock nog att fylla tårtor och bullar med, men kan också spädas till en lyxig vaniljsås. Följ mina steg noggrant så lovar jag dig en perfekt kräm, fri från klumpar!</p>",
+  "image": [{
+    "id": "vaniljkram-grundrecept-img",
+    "url": "/images/recipes/hemgjord-vaniljkram.jpg",
+    "alt": "En vacker glasskål fylld med tjock, len och krämig hemgjord vaniljkräm, med synliga svarta vaniljprickar."
+  }],
+  "steps": [
+    {"step": "Dela vaniljstången på längden och skrapa ur fröna."},
+    {"step": "Koka upp mjölk, grädde, vaniljstång och vaniljfrön i en kastrull. Ta av från värmen och låt dra i ca 10 minuter. Plocka sedan upp vaniljstången."},
+    {"step": "Vispa ihop äggulor, socker och majsstärkelse i en separat bunke tills det är ljust och fluffigt."},
+    {"step": "Häll den varma vaniljmjölken i en tunn stråle över äggblandningen under konstant vispning. Detta kallas temperering och förhindrar att äggen koagulerar."},
+    {"step": "Häll tillbaka hela blandningen i kastrullen. Värm försiktigt på medelvärme under konstant omrörning med en visp (se till att komma åt i kanterna) tills krämen tjocknar. Det får absolut inte koka! Första bubblan du ser, ta av kastrullen från värmen."},
+    {"step": "Häll över krämen i en kall skål. Tillsätt smöret och rör om tills det smält helt. Detta ger en extra len och glansig kräm."},
+    {"step": "Lägg plastfolie direkt på ytan av krämen för att förhindra att det bildas skinn. Låt svalna helt i kylskåp."}
+  ],
+  "servings": "Ca 5 dl",
+  "cookingTime": "PT15M",
+  "prepTime": "PT10M",
+  "totalTime": "PT25M",
+  "description": "<h3>Det Enda Receptet på Vaniljkräm Du Behöver</h3><p>Detta är ett äkta <strong>grundrecept på vaniljkräm</strong>, även känt som konditorkräm eller <strong>pastry cream</strong>. Att göra en <strong>hemgjord vaniljkräm</strong> är skillnaden mellan ett bra och ett fantastiskt bakverk. Denna kräm är otroligt mångsidig och fungerar som en perfekt <strong>tårtfyllning</strong>. Den är oumbärlig i en klassisk Prinsesstårta eller som en lyxig fyllning i våra <a href='/recept/klassiska-kanelbullar' class='text-secondary hover:underline'>saftiga kanelbullar</a>. Du kan även späda den med lite mjölk för att skapa en lyxig <strong>vaniljsås</strong> att servera till din favoritpaj.</p>",
+  "recipeCategory": "Grundrecept, Tårtfyllning, Sås",
+  "recipeCuisine": "Fransk",
+  "keywords": "vaniljkräm, vaniljkräm recept, hemgjord vaniljkräm, pastry cream, tårtfyllning, vaniljsås, grundrecept",
+  "datePublished": "2025-09-19",
+  "ingredients": [
+    {"amount": "5", "unit": "dl", "product": "mjölk, 3%"},
+    {"amount": "1", "unit": "dl", "product": "vispgrädde"},
+    {"amount": "1", "unit": "st", "product": "vaniljstång av hög kvalitet"},
+    {"amount": "6", "unit": "st", "product": "stora äggulor"},
+    {"amount": "1.5", "unit": "dl", "product": "strösocker"},
+    {"amount": "0.5", "unit": "dl", "product": "majsstärkelse (Maizena)"},
+    {"amount": "25", "unit": "g", "product": "osaltat smör, kallt"}
+  ],
+  "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "ratingCount": "35"},
+  "nutrition": {"@type": "NutritionInformation", "calories": "Varierar beroende på användning"}
+},
+{
+  "id": "saftig-morotskaka-med-farskostfrosting",
+  "name": "Världens Saftigaste Morotskaka med Krämig Färskostfrosting",
+  "slug": "saftig-morotskaka-med-farskostfrosting",
+  "elsaIntro": "<p>Morotskaka är en av de där tårtorna som bara känns rätt i alla lägen. Den är rustik men ändå elegant, kryddig men ändå söt, och framför allt – otroligt saftig. Mitt recept har jag finslipat för att maximera saftigheten, med en perfekt balans av kanel, ingefära och kardemumma. Kronan på verket är den lena, syrliga färskostfrostingen som är helt oemotståndlig. Detta är kakan jag bakar när jag vill vara säker på att alla blir glada!</p>",
+  "image": [{
+    "id": "morotskaka-farskostfrosting-img",
+    "url": "/images/recipes/saftig-morotskaka.jpg",
+    "alt": "En generös bit saftig morotskaka med tjock, krämig färskostfrosting, dekorerad med valnötter."
+  }],
+  "steps": [
+    {"step": "Sätt ugnen på 175°C. Smörj och bröa en rund form (ca 24 cm)."},
+    {"step": "Vispa ägg och socker ljust och pösigt. Rör ner oljan."},
+    {"step": "Blanda de torra ingredienserna: vetemjöl, bikarbonat, bakpulver, salt och alla kryddor."},
+    {"step": "Vänd ner mjölblandningen i äggsmeten. Rör sist ner de finrivna morötterna och eventuellt hackade valnötter."},
+    {"step": "Häll smeten i formen och grädda i nedre delen av ugnen i 45-55 minuter. Känn med en sticka att kakan är helt torr i mitten. Låt svalna helt."},
+    {"step": "Frosting: Vispa rumsvarmt smör och färskost krämigt. Tillsätt florsocker och citronsaft och vispa till en slät och bredbar frosting."},
+    {"step": "Bred frostingen över den helt avsvalnade kakan. Dekorera med extra valnötter eller rivet apelsinskal."}
+  ],
+  "servings": "Ca 12-14 bitar",
+  "cookingTime": "PT55M",
+  "prepTime": "PT25M",
+  "totalTime": "PT1H20M",
+  "description": "<h3>En Älskad Klassiker som Alltid Imponerar</h3><p>Detta är det ultimata receptet på en klassisk, <strong>saftig morotskaka</strong>. Hemligheten bakom saftigheten är en generös mängd olja och finrivna morötter. Kryddblandningen ger en varm och inbjudande smak som passar perfekt med den syrliga <strong>färskostfrostingen</strong> (cream cheese frosting). Detta är en tårta som passar lika bra till en kopp kaffe på en tisdag som till ett stort kalas. Om du vill variera smaken, prova att tillsätta lite krossad ananas i smeten för extra saftighet. För en annan typ av kryddig kaka, rekommenderar vi att du även tittar på våra recept för mjuk pepparkaka under högtiderna.</p>",
+  "recipeCategory": "Tårta, Mjuk kaka, Fika",
+  "recipeCuisine": "Internationell",
+  "keywords": "morotskaka, morotskaka recept, saftig morotskaka, färskostfrosting, cream cheese frosting, recept morotskaka",
+  "datePublished": "2025-04-10",
+  "ingredients": [
+    {"product": "Kaka:"},
+    {"amount": "3", "unit": "st", "product": "ägg"},
+    {"amount": "3", "unit": "dl", "product": "strösocker"},
+    {"amount": "3", "unit": "dl", "product": "neutral olja (t.ex. rapsolja)"},
+    {"amount": "4", "unit": "dl", "product": "vetemjöl"},
+    {"amount": "2", "unit": "tsk", "product": "bikarbonat"},
+    {"amount": "1", "unit": "tsk", "product": "bakpulver"},
+    {"amount": "1", "unit": "tsk", "product": "mald kanel"},
+    {"amount": "0.5", "unit": "tsk", "product": "mald ingefära"},
+    {"amount": "0.5", "unit": "tsk", "product": "mald kardemumma"},
+    {"amount": "1", "unit": "nypa", "product": "salt"},
+    {"amount": "5", "unit": "dl", "product": "finrivna morötter (ca 4-5 st)"},
+    {"product": "Färskostfrosting:"},
+    {"amount": "100", "unit": "g", "product": "rumsvarmt smör"},
+    {"amount": "200", "unit": "g", "product": "färskost (cream cheese)"},
+    {"amount": "4", "unit": "dl", "product": "florsocker"},
+    {"amount": "1", "unit": "msk", "product": "färskpressad citronsaft"}
+  ],
+  "aggregateRating": {"@type": "AggregateRating", "ratingValue": "4.9", "ratingCount": "41"},
+  "nutrition": {"@type": "NutritionInformation", "calories": "Cirka 450 kcal per bit"}
+},
+{
+  "id": "klassisk-prinsesstarta",
+  "name": "Klassisk Svensk Prinsesstårta – Steg för Steg",
+  "slug": "klassisk-prinsesstarta",
+  "elsaIntro": "<p>Prinsesstårtan – själva sinnebilden av en svensk tårta! Med sina lager av saftig tårtbotten, hallonsylt, len vaniljkräm och ett generöst täcke av vispgrädde, allt omslutet av ett lock av söt marsipan. Att göra en egen från grunden kan kännas som en utmaning, men det är en otroligt givande process. I det här receptet tar jag dig igenom varje steg, från den perfekta tårtbottnen till hur du lyckas med marsipanlocket. Resultatet är en tårta som är oändligt mycket godare än den köpta!</p>",
+  "image": [{
+    "id": "prinsesstarta-klassisk-img",
+    "url": "/images/recipes/klassisk-prinsesstarta.jpg",
+    "alt": "En perfekt, klassisk svensk Prinsesstårta med ett slätt, ljusgrönt marsipanlock och en rosa marsipanros på toppen."
+  }],
+  "steps": [
+    {"step": "Baka en hög och luftig tårtbotten enligt ett klassiskt recept. Låt svalna helt och dela den sedan i tre jämna bottnar."},
+    {"step": "Gör en sats <a href='/recept/hemgjord-vaniljkram' class='text-secondary hover:underline'>hemgjord vaniljkräm</a> enligt vårt grundrecept och låt den svalna helt."},
+    {"step": "Montering, lager 1: Lägg den första bottnen på ett tårtfat. Bred på ett tunt lager hallonsylt."},
+    {"step": "Montering, lager 2: Lägg på nästa botten. Bred ett generöst lager av den kalla vaniljkrämen över denna."},
+    {"step": "Montering, lager 3: Vispa grädden hårt. Lägg på den sista bottnen och forma en kupol av vispgrädde på toppen."},
+    {"step": "Stryk ett tunt lager grädde runt hela tårtan för att marsipanen ska fästa."},
+    {"step": "Kavla ut marsipanen tunt mellan två ark plastfolie eller med hjälp av florsocker till ett stort, runt lock."},
+    {"step": "Lyft försiktigt marsipanlocket över tårtan. Släta till sidorna och skär bort överflödig marsipan. Dekorera med en rosa marsipanros och pudra med florsocker precis innan servering."}
+  ],
+  "servings": "Ca 12-14 bitar",
+  "cookingTime": "PT40M",
+  "prepTime": "PT90M",
+  "totalTime": "PT2H10M",
+  "description": "<h3>En Kunglig Klassiker: Så Lyckas Du Med Prinsesstårta</h3><p>Vårt steg-för-steg-recept på <strong>klassisk Prinsesstårta</strong> hjälper dig att bemästra detta ikoniska svenska bakverk. Lär dig baka den perfekta, höga tårtbottnen, koka den lenaste <strong>vaniljkrämen</strong> och hantera det gröna marsipanlocket som ett proffs. En <strong>hemgjord Prinsesstårta</strong> är oslagbar och blir garanterat mittpunkten på vilket firande som helst. Detta recept är perfekt för dig som söker ett <strong>stor prinsesstårta recept</strong> för ett speciellt tillfälle. Vill du förenkla? Använd en <strong>färdig botten</strong> och fokusera på att göra en riktigt god fyllning!</p>",
+  "recipeCategory": "Tårta, Svenska klassiker, Festtårta",
+  "recipeCuisine": "Svensk",
+  "keywords": "prinsesstårta, prinsesstårta recept, recept prinsesstårta, klassisk prinsesstårta, stor prinsesstårta recept, tårta med vaniljkräm",
+  "datePublished": "2025-05-15",
+  "ingredients": [
+    {"product": "Tårtbotten (Anslag):"},
+    {"amount": "5", "unit": "st", "product": "stora ägg"},
+    {"amount": "2", "unit": "dl", "product": "strösocker"},
+    {"amount": "1", "unit": "dl", "product": "vetemjöl"},
+    {"amount": "1", "unit": "dl", "product": "potatismjöl"},
+    {"amount": "1", "unit": "tsk", "product": "bakpulver"},
+    {"product": "Fyllning:"},
+    {"amount": "1", "unit": "dl", "product": "hallonsylt av god kvalitet"},
+    {"amount": "1", "unit": "sats", "product": "hemgjord vaniljkräm (ca 5 dl)"},
+    {"amount": "6", "unit": "dl", "product": "vispgrädde"},
+    {"product": "Täcke & Dekoration:"},
+    {"amount": "500", "unit": "g", "product": "grön marsipan"},
+    {"amount": "", "unit": "", "product": "Florsocker"},
+    {"amount": "1", "unit": "st", "product": "rosa marsipanros"}
+  ],
+  "aggregateRating": {"@type": "AggregateRating", "ratingValue": "4.8", "ratingCount": "33"},
+  "nutrition": {"@type": "NutritionInformation", "calories": "Cirka 420 kcal per bit"}
+},
+{
+  "id": "klassisk-pannkakstarta",
+  "name": "Klassisk Pannkakstårta för Kalas",
+  "slug": "klassisk-pannkakstarta",
+  "elsaIntro": "<p>Finns det någon tårta som är mer älskad av barn (och vuxna!) än pannkakstårtan? Det är den ultimata kalastårtan – enkel, rolig och oändligt god. Detta är mitt bästa recept på tunna, fina pannkakor som blir perfekta att stapla. Fyll den med favoritsylten och massor av grädde, och dekorera med ett berg av färska bär. Det är en tårta som garanterat leder till glada miner och kladdiga fingrar!</p>",
+  "image": [{
+    "id": "pannkakstarta-kalas-img",
+    "url": "/images/recipes/klassisk-pannkakstarta.jpg",
+    "alt": "En hög och festlig pannkakstårta med många lager av sylt och grädde, toppad med färska jordgubbar och blåbär."
+  }],
+  "steps": [
+    {"step": "Pannkakor: Vispa ihop mjöl och salt. Tillsätt hälften av mjölken och vispa till en slät smet. Tillsätt resten av mjölken och äggen och vispa igen. Låt smeten svälla i ca 20 min."},
+    {"step": "Smält smöret och rör ner det i smeten."},
+    {"step": "Stek tunna pannkakor i en stekpanna. Låt alla pannkakor svalna helt."},
+    {"step": "Montering: Lägg en pannkaka på ett serveringsfat. Bred på ett tunt lager sylt. Lägg på nästa pannkaka och bred på ett lager vispad grädde."},
+    {"step": "Fortsätt att varva pannkakor med sylt och grädde tills du har en hög och fin tårta. Spara den finaste pannkakan till toppen."},
+    {"step": "Avsluta med att täcka hela tårtan med den sista grädden, eller lägg bara en stor klick på toppen. Dekorera med massor av färska bär."},
+    {"step": "Låt gärna tårtan stå i kylen en stund innan servering så sätter den sig lite. Den är som hämtad ur Pettson och Findus värld!"}
+  ],
+  "servings": "Ca 8-10 bitar",
+  "cookingTime": "PT30M",
+  "prepTime": "PT20M",
+  "totalTime": "PT50M",
+  "description": "<h3>Den Ultimata Kalastårtan</h3><p>Detta <strong>pannkakstårta recept</strong> är allt du behöver för att skapa den klassiska och älskade tårtan som är synonym med barnkalas. Vi visar hur du steker de perfekta, tunna pannkakorna och varvar dem med sylt och grädde för ett imponerande resultat. Vill du göra en extra <strong>lyxig pannkakstårta</strong>? Prova att byta ut ett av syltlagren mot <a href='/recept/hemgjord-vaniljkram' class='text-secondary hover:underline'>vaniljkräm</a> eller smält choklad. Detta recept påminner om den berömda tårtan från <strong>Pettson och Findus</strong> och kommer garanterat att bli en favorit hos de små.</p>",
+  "recipeCategory": "Tårta, Kalas, Pannkakor",
+  "recipeCuisine": "Svensk",
+  "keywords": "pannkakstårta, pannkakstårta recept, recept pannkakstårta, pettsons pannkakor, lyxig pannkakstårta, kalastårta",
+  "datePublished": "2025-06-01",
+  "ingredients": [
+    {"product": "Pannkakor:"},
+    {"amount": "3", "unit": "dl", "product": "vetemjöl"},
+    {"amount": "0.5", "unit": "tsk", "product": "salt"},
+    {"amount": "6", "unit": "dl", "product": "mjölk"},
+    {"amount": "3", "unit": "st", "product": "ägg"},
+    {"amount": "2", "unit": "msk", "product": "smält smör"},
+    {"product": "Fyllning & Garnering:"},
+    {"amount": "3", "unit": "dl", "product": "favoritsylt (t.ex. jordgubb eller hallon)"},
+    {"amount": "5", "unit": "dl", "product": "vispgrädde"},
+    {"amount": "1", "unit": "liter", "product": "färska bär (jordgubbar, blåbär, hallon)"}
+  ],
+  "aggregateRating": {"@type": "AggregateRating", "ratingValue": "4.7", "ratingCount": "29"},
+  "nutrition": {"@type": "NutritionInformation", "calories": "Cirka 350 kcal per bit"}
+},
+{
+  "id": "no-bake-cheesecake-med-bar",
+  "name": "Krämig No-Bake Cheesecake med Digestivebotten och Färska Bär",
+  "slug": "no-bake-cheesecake-med-bar",
+  "elsaIntro": "<p>Vem har sagt att man behöver en ugn för att skapa en imponerande tårta? Denna 'no-bake' cheesecake är mitt go-to-recept när jag vill ha något fantastiskt gott utan att starta ugnen. Den har en härligt smörig och krispig botten av digestivekex, och en otroligt len och krämig fyllning som stelnar perfekt i kylen. Toppa den med vilka bär eller frukter du än har hemma – den är den ultimata sommartårtan, fräsch, svalkande och löjligt enkel att göra!</p>",
+  "image": [{
+    "id": "no-bake-cheesecake-bar-img",
+    "url": "/images/recipes/no-bake-cheesecake.jpg",
+    "alt": "En vacker no-bake cheesecake med en slät vit yta, toppad med ett virrvarr av färska jordgubbar, blåbär och hallon."
+  }],
+  "steps": [
+    {"step": "Botten: Krossa digestivekexen till fina smulor. Smält smöret och blanda det väl med kexsmulorna."},
+    {"step": "Tryck ut kexblandningen jämnt i botten av en springform (ca 24 cm). Ställ i kylen medan du förbereder fyllningen."},
+    {"step": "Fyllning: Vispa färskost, florsocker och vaniljsocker med elvisp tills det är slätt och krämigt."},
+    {"step": "I en separat skål, vispa vispgrädden till fasta toppar."},
+    {"step": "Vänd försiktigt ner den vispade grädden i färskostblandningen med en slickepott tills du har en jämn och luftig smet."},
+    {"step": "Bred ut fyllningen över kexbottnen i springformen. Släta till ytan."},
+    {"step": "Låt cheesecaken stelna i kylskåp i minst 6 timmar, men helst över natten."},
+    {"step": "Precis innan servering, lossa försiktigt kanten på springformen och dekorera tårtan med ett berg av färska bär."}
+  ],
+  "servings": "Ca 12 bitar",
+  "cookingTime": "PT0M",
+  "prepTime": "PT25M",
+  "totalTime": "PT6H25M",
+  "description": "<h3>Den Enklaste och Krämigaste Fikatårtan</h3><p>Detta recept på en <strong>no-bake cheesecake</strong> är perfekt för alla som vill ha en imponerande dessert med minimal ansträngning. Eftersom den inte kräver någon ugn är den idealisk för varma sommardagar. Den krämiga <strong>färskostfyllningen</strong> är mild och fräsch, och kan smaksättas på oändligt många sätt – prova att tillsätta rivet skal från en lime eller citron! Om du gillar enkla desserter som inte behöver gräddas, måste du också prova vårt recept på <a href='/recept/klassiska-chokladbollar' class='text-secondary hover:underline'>klassiska chokladbollar</a>.</p>",
+  "recipeCategory": "Cheesecake, Tårta, No-bake, Fika",
+  "recipeCuisine": "Internationell",
+  "keywords": "cheesecake, no-bake cheesecake, cheesecake recept, färskosttårta, enkel cheesecake, tårta utan ugn",
+  "datePublished": "2025-07-01",
+  "ingredients": [
+    {"product": "Digestivebotten:"},
+    {"amount": "300", "unit": "g", "product": "digestivekex"},
+    {"amount": "150", "unit": "g", "product": "smör, smält"},
+    {"product": "Färskostfyllning:"},
+    {"amount": "600", "unit": "g", "product": "färskost (cream cheese), rumstempererad"},
+    {"amount": "2", "unit": "dl", "product": "florsocker"},
+    {"amount": "1", "unit": "msk", "product": "vaniljsocker"},
+    {"amount": "4", "unit": "dl", "product": "vispgrädde"},
+    {"product": "Garnering:"},
+    {"amount": "500", "unit": "g", "product": "färska bär (jordgubbar, hallon, blåbär)"}
+  ],
+  "aggregateRating": {"@type": "AggregateRating", "ratingValue": "4.8", "ratingCount": "38"},
+  "nutrition": {"@type": "NutritionInformation", "calories": "Cirka 440 kcal per bit"}
+},
+{
+  "id": "mockatarta-med-marang",
+  "name": "Klassisk Mockatårta med Kaffesmörkräm och Chokladmaräng",
+  "slug": "mockatarta-med-marang",
+  "elsaIntro": "<p>För alla kaffeälskare där ute – detta är tårtan för er! Mockatårta är en elegant och vuxen klassiker som kombinerar den rika smaken av kaffe med sötman från choklad och maräng. I mitt recept gör vi nötiga chokladmarängbottnar som vi varvar med en silkeslen kaffesmörkräm. Det är en sofistikerad tårta som är förvånansvärt lätt att baka och som passar perfekt som avslutning på en god middag.</p>",
+  "image": [{
+    "id": "mockatarta-marang-img",
+    "url": "/images/recipes/mockatarta-med-marang.jpg",
+    "alt": "En elegant mockatårta med lager av chokladmaräng och kaffesmörkräm, dekorerad med chokladbönor."
+  }],
+  "steps": [
+    {"step": "Sätt ugnen på 150°C. Rita två cirklar (ca 22 cm) på två olika bakplåtspapper."},
+    {"step": "Marängbottnar: Mal hasselnötterna fint. Vispa äggvitorna till ett hårt skum. Tillsätt sockret lite i taget och vispa till en seg maräng. Vänd försiktigt ner de malda nötterna och den smälta chokladen."},
+    {"step": "Bred ut smeten jämnt inom cirklarna på bakplåtspappren. Grädda i ca 60 minuter. Låt svalna helt."},
+    {"step": "Kaffesmörkräm: Vispa rumsvarmt smör och florsocker ljust och fluffigt. Tillsätt äggulorna, en i taget."},
+    {"step": "Blanda i det starka, kalla kaffet och vispa till en slät och krämig smörkräm."},
+    {"step": "Montering: Lägg en marängbotten på ett fat. Bred på hälften av kaffesmörkrämen."},
+    {"step": "Lägg på den andra bottnen och bred ut resten av krämen på toppen och runt kanterna. Dekorera med chokladdoppade kaffebönor eller riven mörk choklad."}
+  ],
+  "servings": "Ca 10-12 bitar",
+  "cookingTime": "PT60M",
+  "prepTime": "PT30M",
+  "totalTime": "PT1H30M",
+  "description": "<h3>En Dröm för Kaffe- och Chokladälskare</h3><p>Denna <strong>mockatårta med maräng</strong> är en elegant klassiker som aldrig går ur tiden. Kombinationen av sega <strong>chokladmarängbottnar</strong> med hasselnötter och en fyllig <strong>mockatårta med grädde</strong> (i form av smörkräm) är oslagbar. Det är ett perfekt recept för dig som letar efter en tårta med en mer vuxen och sofistikerad smakprofil. Om du gillar smakkombinationen kaffe och choklad, kommer du att älska denna tårta. Den är dessutom naturligt glutenfri!</p>",
+  "recipeCategory": "Tårta, Mocka, Marängtårta, Glutenfritt",
+  "recipeCuisine": "Internationell",
+  "keywords": "mockatårta, mockatårta med maräng, mockatårta med grädde, kaffetårta, chokladmaräng",
+  "datePublished": "2025-11-05",
+  "ingredients": [
+    {"product": "Chokladmarängbottnar:"},
+    {"amount": "4", "unit": "st", "product": "äggvitor"},
+    {"amount": "3", "unit": "dl", "product": "strösocker"},
+    {"amount": "100", "unit": "g", "product": "hasselnötter"},
+    {"amount": "50", "unit": "g", "product": "mörk choklad, smält"},
+    {"product": "Kaffesmörkräm:"},
+    {"amount": "200", "unit": "g", "product": "rumsvarmt smör"},
+    {"amount": "2", "unit": "dl", "product": "florsocker"},
+    {"amount": "2", "unit": "st", "product": "äggulor"},
+    {"amount": "2", "unit": "msk", "product": "starkt, kallt kaffe (espresso)"}
+  ],
+  "aggregateRating": {"@type": "AggregateRating", "ratingValue": "4.6", "ratingCount": "15"},
+  "nutrition": {"@type": "NutritionInformation", "calories": "Cirka 460 kcal per bit"}
+},
+{
+  "id": "laskig-halloweentarta-med-choklad-och-apelsin",
+  "name": "Läskigt God Halloweentårta med Choklad och Blodapelsin",
+  "slug": "laskig-halloweentarta-med-choklad-och-apelsin",
+  "elsaIntro": "<p>Halloween handlar om bus, godis och att få vara lite extra kreativ! Denna Halloweentårta är både läskigt god och otroligt rolig att baka. Den har mörka, saftiga chokladbottnar och en blodröd frosting gjord på blodapelsin som ger en spännande och fräsch smakbrytning. Att dekorera den är halva nöjet – här kan hela familjen vara med och skapa spöken av maräng eller spindelnät av smält choklad. Vågar du ta en bit?</p>",
+  "image": [{
+    "id": "halloweentarta-choklad-img",
+    "url": "/images/recipes/laskig-halloweentarta.jpg",
+    "alt": "En mörk och läskig Halloweentårta, täckt med mörk chokladganache och dekorerad med marängspöken och spindelnät."
+  }],
+  "steps": [
+    {"step": "Baka två mörka, saftiga chokladbottnar och låt dem svalna helt."},
+    {"step": "Gör en blodapelsincurd eller frosting: Vispa färskost med florsocker och saften från blodapelsiner tills du har en krämig och vackert röd/orange frosting."},
+    {"step": "Montering: Lägg en botten på ett fat. Bred på ett generöst lager av blodapelsinfrostingen."},
+    {"step": "Lägg på den andra bottnen. Täck hela tårtan med en mörk chokladganache. Låt ganachen rinna ner snyggt längs kanterna."},
+    {"step": "Dekorering: Medan ganachen fortfarande är lite mjuk, skapa ett spindelnät genom att spritsa ringar av smält vit choklad och dra ut dem med en tandpetare."},
+    {"step": "Gör små marängspöken genom att spritsa små toppar av marängsmet och grädda. Måla ögon med smält choklad när de svalnat."},
+    {"step": "Placera marängspökena på tårtan. Låt allt stelna i kylen innan servering."}
+  ],
+  "servings": "Ca 12-14 bitar",
+  "cookingTime": "PT40M",
+  "prepTime": "PT50M",
+  "totalTime": "PT1H30M",
+  "description": "<h3>Den Perfekta Tårtan för Halloweenfesten</h3><p>Denna <strong>Halloweentårta</strong> är designad för att imponera på din halloweenfest. Det är en <strong>enkel halloweentårta</strong> att sätta ihop, men med ett resultat som ser otroligt avancerat och <strong>läskigt</strong> ut. Kombinationen av mörk choklad och den syrliga blodapelsinen är en fullträff. Om du ska baka till många, kan du enkelt anpassa receptet till en <strong>halloween kaka i långpanna</strong> genom att baka en stor chokladbotten och dekorera den på samma sätt.</p>",
+  "recipeCategory": "Tårta, Högtid, Halloween, Choklad",
+  "recipeCuisine": "Internationell",
+  "keywords": "halloweentårta, halloween tårta, läskig tårta, enkel halloweentårta, halloween kaka långpanna, tårta till många recept",
+  "datePublished": "2025-10-20",
+  "ingredients": [
+    {"product": "Mörka Chokladbottnar (x2):"},
+    {"amount": "200", "unit": "g", "product": "mörk choklad"},
+    {"amount": "200", "unit": "g", "product": "smör"},
+    {"amount": "4", "unit": "st", "product": "ägg"},
+    {"amount": "3", "unit": "dl", "product": "socker"},
+    {"product": "Blodapelsinfrosting:"},
+    {"amount": "200", "unit": "g", "product": "färskost"},
+    {"amount": "2", "unit": "dl", "product": "florsocker"},
+    {"amount": "1", "unit": "st", "product": "saften från en blodapelsin"},
+    {"product": "Garnering:"},
+    {"amount": "150", "unit": "g", "product": "mörk choklad (till ganache)"},
+    {"amount": "1", "unit": "dl", "product": "vispgrädde (till ganache)"},
+    {"amount": "", "unit": "", "product": "Marängspöken"}
+  ],
+  "aggregateRating": {"@type": "AggregateRating", "ratingValue": "4.7", "ratingCount": "19"},
+  "nutrition": {"@type": "NutritionInformation", "calories": "Cirka 470 kcal per bit"}
+},
+{
+  "id": "chokladtarta-med-apelsin",
+  "name": "Saftig Chokladtårta med Apelsin & Chokladganache",
+  "slug": "chokladtarta-med-apelsin",
+  "elsaIntro": "<p>Finns det en mer klassisk och älskad smakkombination än choklad och apelsin? Jag tror inte det. Den djupa, fylliga smaken från mörk choklad som möter den friska, sötsyrliga tonen från färsk apelsin är ren magi. Detta är min version av den perfekta choklad- och apelsintårtan: otroligt saftiga bottnar smaksatta med rivet apelsinskal, fylld med en len apelsincurd och täckt med en glansig, mörk chokladganache. En elegant tårta för vuxna smaker!</p>",
+  "image": [{
+    "id": "choklad-apelsin-tarta-img",
+    "url": "/images/recipes/chokladtarta-med-apelsin.jpg",
+    "alt": "En elegant och mörk chokladtårta, dekorerad med kanderade apelsinskivor och chokladspån."
+  }],
+  "steps": [
+    {"step": "Sätt ugnen på 175°C. Smörj och bröa två runda formar (20 cm)."},
+    {"step": "Gör chokladbottnar enligt ett favoritrecept, men tillsätt finrivet skal från två apelsiner i smeten. Grädda och låt svalna helt."},
+    {"step": "Apelsincurd: Gör en curd på samma sätt som <a href='/recept/lemon-curd' class='text-secondary hover:underline'>lemon curd</a>, men byt ut citronsaft mot färskpressad apelsinsaft."},
+    {"step": "Chokladganache: Värm grädden tills den nästan kokar. Ta av från värmen och häll den över den hackade mörka chokladen. Låt stå en minut, rör sedan till en slät och glansig ganache."},
+    {"step": "Montering: Dela bottnarna om de är höga. Varva bottnar med apelsincurd. Låt gärna sätta sig i kylen en stund."},
+    {"step": "Häll den något avsvalnade ganachen över tårtan och låt den rinna ner längs kanterna. Låt stelna."},
+    {"step": "Dekorera med kanderade apelsinskivor eller färskt apelsinzest."}
+  ],
+  "servings": "Ca 12 bitar",
+  "cookingTime": "PT45M",
+  "prepTime": "PT45M",
+  "totalTime": "PT1H30M",
+  "description": "<h3>En Klassisk Smakkombination i Ny Tappning</h3><p>Denna <strong>chokladtårta med apelsin</strong> är en sofistikerad dessert som garanterat kommer att imponera. Den rika smaken från mörk choklad balanseras perfekt av den friska syrligheten från apelsin. Receptet är uppbyggt i moduler, där du kan förbereda både apelsincurd och bottnar i förväg. Om du älskar kombinationen <strong>apelsin och chokladtårta</strong> är detta receptet för dig. Det är en perfekt tårta för höstens och vinterns bjudningar.</p>",
+  "recipeCategory": "Tårta, Choklad, Frukt & Bär",
+  "recipeCuisine": "Internationell",
+  "keywords": "chokladtårta med apelsin, apelsin och chokladtårta, choklad apelsin tårta, recept",
+  "datePublished": "2025-11-20",
+  "ingredients": [
+    {"product": "Choklad- & Apelsinbottnar:"},
+    {"amount": "200", "unit": "g", "product": "mörk choklad"},
+    {"amount": "200", "unit": "g", "product": "smör"},
+    {"amount": "4", "unit": "st", "product": "ägg"},
+    {"amount": "3", "unit": "dl", "product": "socker"},
+    {"amount": "2", "unit": "st", "product": "rivet skal från apelsiner"},
+    {"product": "Apelsincurd:"},
+    {"amount": "1", "unit": "sats", "product": "hemgjord apelsincurd"},
+    {"product": "Chokladganache:"},
+    {"amount": "200", "unit": "g", "product": "mörk choklad (70%)"},
+    {"amount": "2", "unit": "dl", "product": "vispgrädde"}
+  ],
+  "aggregateRating": {"@type": "AggregateRating", "ratingValue": "4.8", "ratingCount": "14"},
+  "nutrition": {"@type": "NutritionInformation", "calories": "Cirka 490 kcal per bit"}
+},
+{
+  "id": "glace-au-four-paron-choklad",
+  "name": "Spektakulär Glace au Four med Päron och Choklad",
+  "slug": "glace-au-four-paron-choklad",
+  "elsaIntro": "<p>Vill du verkligen imponera på dina middagsgäster? Då är Glace au Four, eller 'Baked Alaska' som den också kallas, det självklara valet! Det är en magisk dessert där kall glass täcks med ett isolerande lager av italiensk maräng, som sedan bränns av för en vacker, gyllene yta. I min version vilar glassen på en saftig chokladbotten och har en kärna av söta, inkokta päron. Det låter komplicerat, men jag guidar dig genom varje steg för att skapa denna oförglömliga showstopper!</p>",
+  "image": [{
+    "id": "glace-au-four-img",
+    "url": "/images/recipes/glace-au-four.jpg",
+    "alt": "En imponerande Glace au Four med brända marängtoppar, uppskuren för att visa lagren av glass och chokladbotten."
+  }],
+  "steps": [
+    {"step": "Förbered en tunn chokladbotten (brownie-stil) i en rund form och låt svalna helt."},
+    {"step": "Mjukna vaniljglassen något. Blanda i de tärnade, inkokta päronen. Lägg tillbaka i frysen för att stelna lite."},
+    {"step": "Montering: Lägg chokladbottnen på ett ugnssäkert fat. Skopa upp päronglassen och forma den till en vacker kupol ovanpå bottnen. Ställ in i frysen i minst 4 timmar tills den är stenhård."},
+    {"step": "Italiensk maräng: Koka en sockerlag på socker och vatten till 121°C. Medan den kokar, vispa äggvitorna till mjuka toppar."},
+    {"step": "Häll den heta sockerlagen i en tunn stråle ner i de vispade äggvitorna under konstant vispning på hög hastighet. Fortsätt vispa tills marängen är sval, tjock och glansig."},
+    {"step": "Ta ut den frysta glasstårtan. Täck den snabbt och helt med den italienska marängen. Se till att inga glipor finns."},
+    {"step": "Använd en gasbrännare för att bränna av marängtopparna tills de är vackert gyllene. Alternativt, grädda snabbt på högsta värme i ugnen (250°C) i bara 2-3 minuter. Håll noga koll! Servera omedelbart."}
+  ],
+  "servings": "Ca 8-10 bitar",
+  "cookingTime": "PT5M",
+  "prepTime": "PT60M",
+  "totalTime": "PT5H5M",
+  "description": "<h3>En Dessert som Får Gästerna att Tappa Hakan</h3><p><strong>Glace au Four</strong> är en klassisk dessert som kombinerar varmt och kallt på ett spektakulärt sätt. Den fluffiga, varma marängen skyddar den iskalla glassen från värmen. Detta recept visar hur du gör en variant med en rik chokladbotten istället för den traditionella sockerkaksbottnen, vilket ger en djupare smak. För den som vill göra en <strong>glace au four utan sockerkaka</strong> är detta ett perfekt alternativ. Processen kräver lite planering, men resultatet är en av de mest imponerande desserter du kan ställa på bordet.</p>",
+  "recipeCategory": "Dessert, Glass, Festtårta",
+  "recipeCuisine": "Fransk",
+  "keywords": "glace au four, glace au four utan sockerkaka, baked alaska, glasstårta, maräng",
+  "datePublished": "2025-12-05",
+  "ingredients": [
+    {"product": "Chokladbotten:"},
+    {"amount": "100", "unit": "g", "product": "mörk choklad"},
+    {"amount": "100", "unit": "g", "product": "smör"},
+    {"amount": "2", "unit": "st", "product": "ägg"},
+    {"amount": "1.5", "unit": "dl", "product": "socker"},
+    {"product": "Glassfyllning:"},
+    {"amount": "1.5", "unit": "liter", "product": "vaniljglass av god kvalitet"},
+    {"amount": "1", "unit": "burk", "product": "inkokta päron, tärnade"},
+    {"product": "Italiensk Maräng:"},
+    {"amount": "4", "unit": "st", "product": "äggvitor"},
+    {"amount": "2", "unit": "dl", "product": "strösocker"},
+    {"amount": "0.5", "unit": "dl", "product": "vatten"}
+  ],
+  "aggregateRating": {"@type": "AggregateRating", "ratingValue": "4.9", "ratingCount": "11"},
+  "nutrition": {"@type": "NutritionInformation", "calories": "Cirka 400 kcal per bit"}
+},
+{
+  "id": "squashkaka-i-langpanna",
+  "name": "Saftig Squashkaka i Långpanna med Kanel",
+  "slug": "squashkaka-i-langpanna",
+  "elsaIntro": "<p>Att baka med grönsaker är ett fantastiskt sätt att få otroligt saftiga och smakrika kakor! Denna squashkaka (eller zucchinikaka) är ett perfekt exempel. Den rivna squashen smälter in i kakan och ger en underbar saftighet, medan kanelen tillför en varm och hemtrevlig kryddighet. Den bakas i långpanna så den räcker till många och är perfekt att ta med till fikat på jobbet eller frysa in i bitar. En oväntad favorit som alla kommer att älska!</p>",
+  "image": [{
+    "id": "squashkaka-langpanna-img",
+    "url": "/images/recipes/squashkaka-i-langpanna.jpg",
+    "alt": "En saftig squashkaka i långpanna, skuren i rutor och pudrad med florsocker."
+  }],
+  "steps": [
+    {"step": "Sätt ugnen på 175°C. Smörj och bröa en långpanna (ca 30x40 cm)."},
+    {"step": "Riv squashen grovt och krama ur en del av vätskan om den är väldigt blöt."},
+    {"step": "Vispa ägg och socker ljust och pösigt. Tillsätt oljan under fortsatt vispning."},
+    {"step": "Blanda de torra ingredienserna: mjöl, bikarbonat, bakpulver, kanel och salt."},
+    {"step": "Vänd ner mjölblandningen och den rivna squashen i äggsmeten. Rör om tills allt är precis blandat."},
+    {"step": "Häll smeten i långpannan och bred ut den jämnt."},
+    {"step": "Grädda mitt i ugnen i cirka 25-30 minuter, eller tills en provsticka kommer ut torr. Låt svalna helt."},
+    {"step": "Sikta över florsocker innan servering. Kakan är också ljuvlig med en <a href='/recept/saftig-morotskaka-med-farskostfrosting' class='text-secondary hover:underline'>färskostfrosting</a>."}
+  ],
+  "servings": "Ca 24 bitar",
+  "cookingTime": "PT30M",
+  "prepTime": "PT20M",
+  "totalTime": "PT50M",
+  "description": "<h3>En Överraskande Saftig Långpannekaka</h3><p>Letar du efter ett recept på <strong>squash kaka i långpanna</strong>? Då har du kommit rätt! Detta är ett enkelt och pålitligt recept som ger en otroligt saftig och god kaka som passar perfekt när du ska bjuda många. Squashen (även känd som zucchini) gör kakan mör och håller den fräsch i flera dagar. En perfekt kaka för att ta tillvara på sommarens squashskörd!</p>",
+  "recipeCategory": "Långpannekaka, Mjuk kaka, Fika",
+  "recipeCuisine": "Svensk",
+  "keywords": "squashkaka, squash kaka i långpanna, zucchinikaka, kaka med squash",
+  "datePublished": "2025-08-25",
+  "ingredients": [
+    {"amount": "4", "unit": "st", "product": "ägg"},
+    {"amount": "4", "unit": "dl", "product": "strösocker"},
+    {"amount": "2", "unit": "dl", "product": "neutral olja"},
+    {"amount": "5", "unit": "dl", "product": "vetemjöl"},
+    {"amount": "1", "unit": "msk", "product": "mald kanel"},
+    {"amount": "2", "unit": "tsk", "product": "bikarbonat"},
+    {"amount": "1", "unit": "tsk", "product": "bakpulver"},
+    {"amount": "1", "unit": "tsk", "product": "salt"},
+    {"amount": "6-7", "unit": "dl", "product": "grovriven squash (ca 500g)"}
+  ],
+  "aggregateRating": {"@type": "AggregateRating", "ratingValue": "4.6", "ratingCount": "9"},
+  "nutrition": {"@type": "NutritionInformation", "calories": "Cirka 220 kcal per bit"}
+},
+{
+  "id": "klassisk-kladdkaka",
+  "name": "Världens Bästa Kladdkaka – Seg & Kladdig",
+  "slug": "klassisk-kladdkaka",
+  "elsaIntro": "<p>Finns det något mer trösterikt och älskat än en riktigt bra kladdkaka? Detta är mitt absolut bästa grundrecept som jag har förfinat genom åren. Hemligheten för en perfekt kladdkaka – seg i kanterna och härligt lös och kladdig i mitten – ligger i att inte vispa smeten för mycket och att ta ut den ur ugnen i precis rätt tid. Detta är ren chokladmagi i sin enklaste och godaste form!</p>",
+  "image": [{
+    "id": "kladdkaka-klassisk-img",
+    "url": "/images/recipes/kladdkaka-klassisk.jpg",
+    "alt": "En perfekt kladdkaka med ett krispigt täcke och kladdig mitt, serverad med en klick vispgrädde."
+  }],
+  "steps": [
+    {"step": "Sätt ugnen på 175°C. Smörj och bröa en springform (ca 22-24 cm) med smör och ströbröd (eller kakao för en intensivare chokladsmak)."},
+    {"step": "Smält smöret i en kastrull och låt det svalna något."},
+    {"step": "Rör ihop ägg och socker lätt i en bunke. Du ska INTE vispa det pösigt, bara blanda."},
+    {"step": "Blanda de torra ingredienserna (vetemjöl, kakao, vaniljsocker, salt) i en separat skål."},
+    {"step": "Rör ner mjölblandningen i äggsmeten. Tillsätt sist det smälta smöret. Rör om försiktigt tills allt är precis blandat till en jämn smet."},
+    {"step": "Häll smeten i den förberedda formen."},
+    {"step": "Grädda mitt i ugnen i cirka 15-20 minuter. Kakan ska vara fast i kanterna men fortfarande dallrig och kladdig i mitten. Den stelnar mer när den svalnar."},
+    {"step": "Låt kakan svalna helt, gärna i kylskåp i några timmar. Pudra med florsocker och servera med lättvispad grädde och färska bär."}
+  ],
+  "servings": "Ca 10-12 bitar",
+  "cookingTime": "PT20M",
+  "prepTime": "PT10M",
+  "totalTime": "PT30M",
+  "description": "<h3>Den Enda Kladdkakan Du Behöver</h3><p>Detta är ett idiotsäkert recept på en klassisk, <strong>seg och kladdig kladdkaka</strong>. Följ tipset om att inte överarbeta smeten för att undvika att vispa in luft, vilket är nyckeln till den perfekta kladdiga konsistensen. En <strong>enkel kladdkaka</strong> som alltid blir en succé. Denna <strong>kladdkaka med kakao</strong> är basen för oändliga variationer. Prova att tillsätta en nypa chiliflakes eller servera med en klick av vår <a href='/recept/no-bake-cheesecake-med-bar' class='text-secondary hover:underline'>krämiga färskostfrosting</a> för en lyxig twist.</p>",
+  "recipeCategory": "Kladdkaka, Choklad, Fika, Mjuk kaka",
+  "recipeCuisine": "Svensk",
+  "keywords": "kladdkaka, kladdkaka recept, enkel kladdkaka, seg kladdkaka, kladdkaka med kakao, bästa kladdkakan",
+  "datePublished": "2025-02-15",
+  "ingredients": [
+    {"amount": "100", "unit": "g", "product": "smör"},
+    {"amount": "2.5", "unit": "dl", "product": "strösocker"},
+    {"amount": "2", "unit": "st", "product": "ägg"},
+    {"amount": "1.5", "unit": "dl", "product": "vetemjöl"},
+    {"amount": "4", "unit": "msk", "product": "kakao av hög kvalitet"},
+    {"amount": "1", "unit": "tsk", "product": "vaniljsocker"},
+    {"amount": "1", "unit": "nypa", "product": "salt"}
+  ],
+  "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "ratingCount": "62"},
+  "nutrition": {"@type": "NutritionInformation", "calories": "Cirka 300 kcal per bit"}
+},
+{
+    "id": "klassiska-svenska-semlor",
+    "name": "Klassiska Svenska Semlor (Världens Godaste Recept)",
+    "slug": "klassiska-svenska-semlor",
+    "image": [{
+      "id": "klassiska-semlor-img",
+      "url": "/images/recipes/klassiska-svenska-semlor.jpg",
+      "alt": "Klassiska svenska semlor med fluffig grädde och ett lock pudrat med florsocker."
+    }],
+    "elsaIntro": "<p>Finns det något som förkroppsligar svensk fika mer än en perfekt, hembakad semla? Jag tror inte det. Detta är mitt absolut bästa recept, finslipat genom åren för att garantera fluffiga bullar, en ljuvlig fyllning och perfekt vispad grädde. Detta är inte bara en bulle, det är en kärleksförklaring till Fettisdagen!</p>",
+    "description": "<h3>Det Enda Receptet på Semlor Du Behöver</h3><p>Här hittar du det ultimata receptet på <b>klassiska svenska semlor</b>, även kända som fastlagsbullar eller fettisdagsbullar. Vi går igenom steg för steg hur du bakar otroligt saftiga och <b>fluffiga vetebullar</b>, gör den godaste fyllningen med vår guide till <a href='/recept/hemgjord-mandelmassa-till-semlor' class='text-secondary hover:underline'>hemgjord mandelmassa</a>, och slutligen monterar din semla till perfektion. Detta recept täcker allt från grunden och besvarar frågor som <b>när man äter semlor</b> och semlans historia.</p><h4>Semlans Dag och tradition</h4><p>Traditionellt äts semlan på Fettisdagen, som är tisdagen sju veckor före påsk. Men idag är vi många som tjuvstartar och njuter av semlor från jul fram till påsk! En populär tradition är 'hetvägg', där semlan serveras i en djup tallrik med varm mjölk.</p>",
+    "recipeCategory": "Bullar & Fika",
+    "recipeCuisine": "Svensk",
+    "keywords": "semla, semlor, recept semlor, fettisdagsbulle, fastlagsbulle, hembakat, baka semlor, världens godaste semlor, semla dag, semla historia, hetvägg",
+    "datePublished": "2025-01-15",
+    "servings": "cirka 16 st",
+    "prepTime": "PT40M",
+    "cookingTime": "PT15M",
+    "totalTime": "PT2H30M",
+    "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "ratingCount": "1" },
+    "nutrition": { "@type": "NutritionInformation", "calories": "Cirka 380 kcal per semla" },
+    "ingredients": [
+      { "product": "Vetedeg (Fördeg):" },
+      { "amount": "25", "unit": "g", "product": "Färsk jäst" },
+      { "amount": "2.5", "unit": "dl", "product": "Mjölk, fingervarm" },
+      { "amount": "250", "unit": "g", "product": "Vetemjöl Special (ca 4 dl)" },
+      { "product": "Vetedeg (Huvuddeg):" },
+      { "amount": "1", "unit": "dl", "product": "Socker" },
+      { "amount": "1", "unit": "tsk", "product": "Stött kardemumma" },
+      { "amount": "1", "unit": "krm", "product": "Salt" },
+      { "amount": "1", "unit": "st", "product": "Ägg" },
+      { "amount": "150-200", "unit": "g", "product": "Vetemjöl Special (ca 2.5-3 dl)" },
+      { "amount": "75", "unit": "g", "product": "Rumsvarmt smör" },
+      { "product": "Fyllning & Montering:" },
+      { "amount": "1", "unit": "sats", "product": "Hemgjord mandelmassa (se separat recept)" },
+      { "amount": "5", "unit": "dl", "product": "Vispgrädde" },
+      { "amount": "", "unit": "", "product": "Florsocker att pudra över" }
+    ],
+    "steps": [
+      { "step": "<p><b>Fördeg:</b> Smula ner jästen i en bunke. Tillsätt mjölken och rör tills jästen lösts upp. Blanda i 250g vetemjöl och arbeta ihop till en kladdig deg. Låt jäsa under duk i ca 30 minuter.</p>", "image": [] },
+      { "step": "<p><b>Huvuddeg:</b> Tillsätt socker, kardemumma, salt och ägg i fördegen. Arbeta in resten av mjölet, lite i taget. Knåda degen i maskin i ca 10 min. Tillsätt smöret i små klickar och knåda ytterligare 5-7 minuter tills degen är blank och elastisk.</p>", "image": [] },
+      { "step": "<p>Låt degen jäsa under duk till dubbel storlek, cirka 60-90 minuter.</p>", "image": [] },
+      { "step": "<p>Dela degen i 16 lika stora bitar. Rundriv varje bit till en slät bulle och lägg på plåtar med bakplåtspapper. Låt jäsa under duk i ca 60 minuter. Sätt ugnen på 225°C.</p>", "image": [] },
+      { "step": "<p>Grädda bullarna mitt i ugnen i 8-10 minuter tills de är gyllenbruna. Låt svalna helt på galler.</p>", "image": [] },
+      { "step": "<p><b>Montering:</b> Skär av ett litet lock på varje bulle. Gröp ur en del av inkråmet och blanda det med din <a href='/recept/hemgjord-mandelmassa-till-semlor' class='text-secondary hover:underline'>hemgjorda mandelmassa</a> och en skvätt mjölk till en krämig fyllning.</p>", "image": [] },
+      { "step": "<p>Fyll varje bulle med mandelmassan. Vispa grädden fast och spritsa den vackert över fyllningen. Lägg på locket och pudra generöst med florsocker precis innan servering.</p>", "image": [] }
+    ]
+  },
+  {
+    "id": "hemgjord-mandelmassa-till-semlor",
+    "name": "Bästa Fyllningen: Hemgjord Mandelmassa till Semlor",
+    "slug": "hemgjord-mandelmassa-till-semlor",
+    "image": [{
+      "id": "mandelmassa-fyllning-img",
+      "url": "/images/recipes/hemgjord-mandelmassa-semlor.jpg",
+      "alt": "En skål med krämig, hemgjord mandelmassa, redo att användas som fyllning i semlor."
+    }],
+    "elsaIntro": "<p>Glöm den köpta mandelmassan! Att göra sin egen fyllning är hemligheten bakom en verkligt exceptionell semla. Det är enkelt och skillnaden i smak är enorm. Detta är mitt grundrecept som ger en krämig och smakrik mandelmassa med en härlig textur av rostad mandel.</p>",
+    "description": "<h3>Perfekt Fyllning till Semlor och Bakverk</h3><p>Detta är grundreceptet på den godaste <b>fyllningen till dina semlor</b>. Att göra egen <b>mandelmassa</b> är enkelt och ger en mycket godare och lyxigare smak än den färdigköpta. Denna <b>semla mandelmassa</b> är krämig, inte för söt, och passar perfekt att blanda med inkråmet från bullarna. Använd den i vårt recept på <a href='/recept/klassiska-svenska-semlor' class='text-secondary hover:underline'>klassiska semlor</a> för bästa resultat!</p>",
+    "recipeCategory": "Grundrecept",
+    "recipeCuisine": "Svensk",
+    "keywords": "mandelmassa, semlor fyllning, fyllning till semlor, mandelmassa recept, hemgjord mandelmassa, godaste mandelmassan till semlor",
+    "datePublished": "2025-01-14",
+    "servings": "Räcker till ca 16 semlor",
+    "prepTime": "PT15M",
+    "cookingTime": "PT5M",
+    "totalTime": "PT20M",
+    "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "ratingCount": "1" },
+    "nutrition": { "@type": "NutritionInformation", "calories": "Varierar beroende på mängd" },
+    "ingredients": [
+      { "amount": "150", "unit": "g", "product": "Sötmandel" },
+      { "amount": "1.5", "unit": "dl", "product": "Florsocker" },
+      { "amount": "1", "unit": "st", "product": "Äggvita" }
+    ],
+    "steps": [
+      { "step": "<p>Skålla mandeln genom att koka upp den i vatten och sedan låta den svalna något. Kläm av skalet från varje mandel.</p>", "image": [] },
+      { "step": "<p>Rosta den skållade mandeln lätt i en torr stekpanna eller i ugnen på 175°C i några minuter tills den får en lätt gyllene färg och doftar nötigt. Låt svalna helt.</p>", "image": [] },
+      { "step": "<p>Mixa den rostade mandeln och florsockret i en matberedare till ett fint pulver.</p>", "image": [] },
+      { "step": "<p>Tillsätt äggvitan, lite i taget, och mixa tills du har en slät och formbar massa. Klart!</p>", "image": [] }
+    ]
+  },
+  {
+    "id": "glutenfria-semlor",
+    "name": "Saftiga och Fluffiga Glutenfria Semlor",
+    "slug": "glutenfria-semlor",
+    "image": [{
+      "id": "glutenfria-semlor-img",
+      "url": "/images/recipes/glutenfria-semlor.jpg",
+      "alt": "Perfekta glutenfria semlor på en ljus tallrik, en är delad för att visa den saftiga insidan."
+    }],
+    "elsaIntro": "<p>Att baka glutenfritt kan vara en utmaning, men en god semla ska alla kunna njuta av! Detta recept är resultatet av många experiment för att få fram en glutenfri semla som inte kompromissar med smaken eller konsistensen. Hemligheten är psylliumhusk och en bra mjölmix!</p>",
+    "description": "<h3>Njut av en Perfekt Glutenfri Semla</h3><p>Detta recept på <b>glutenfria semlor</b> är framtaget för att ge dig en bulle som är precis lika god som originalet. Bullarna blir saftiga och luftiga tack vare psylliumhusk som binder degen. Fyll dem med <a href='/recept/hemgjord-mandelmassa-till-semlor' class='text-secondary hover:underline'>vår hemgjorda mandelmassa</a> (som är naturligt glutenfri) och rikligt med grädde för den ultimata fikastunden. Ett måste för alla som söker ett pålitligt recept på <b>semlor glutenfria</b>.</p>",
+    "recipeCategory": "Glutenfritt",
+    "recipeCuisine": "Svensk",
+    "keywords": "glutenfria semlor, glutenfri semla, semlor glutenfria, recept, fettisdagsbulle, baka glutenfritt",
+    "datePublished": "2025-01-16",
+    "servings": "cirka 12 st",
+    "prepTime": "PT30M",
+    "cookingTime": "PT15M",
+    "totalTime": "PT2H",
+    "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.8", "ratingCount": "1" },
+    "nutrition": { "@type": "NutritionInformation", "calories": "Cirka 350 kcal per semla" },
+    "ingredients": [
+      { "product": "Deg:" },
+      { "amount": "25", "unit": "g", "product": "Jäst" },
+      { "amount": "3", "unit": "dl", "product": "Mjölk, fingervarm" },
+      { "amount": "2", "unit": "msk", "product": "Fiberhusk / Psylliumhusk" },
+      { "amount": "1", "unit": "dl", "product": "Socker" },
+      { "amount": "1", "unit": "tsk", "product": "Kardemummakärnor, nystötta" },
+      { "amount": "1", "unit": "krm", "product": "Salt" },
+      { "amount": "1", "unit": "st", "product": "Ägg" },
+      { "amount": "75", "unit": "g", "product": "Rumsvarmt smör" },
+      { "amount": "7-8", "unit": "dl", "product": "Glutenfri mjölmix (t.ex. Finax röda)" },
+      { "product": "Fyllning & Montering:" },
+      { "amount": "1", "unit": "sats", "product": "Hemgjord mandelmassa" },
+      { "amount": "5", "unit": "dl", "product": "Vispgrädde" },
+      { "amount": "", "unit": "", "product": "Florsocker" }
+    ],
+    "steps": [
+      { "step": "<p>Blanda jäst, fingervarm mjölk och psylliumhusk i en bunke. Låt svälla i 10 minuter.</p>", "image": [] },
+      { "step": "<p>Tillsätt socker, kardemumma, salt, ägg och det mesta av mjölmixen. Arbeta degen i maskin i 5 minuter.</p>", "image": [] },
+      { "step": "<p>Klicka i det rumsvarma smöret och arbeta degen ytterligare 5 minuter. Degen kommer att vara ganska kladdig.</p>", "image": [] },
+      { "step": "<p>Låt degen jäsa under duk i ca 45 minuter.</p>", "image": [] },
+      { "step": "<p>Stjälp upp degen på ett lätt mjölat (med glutenfri mjölmix) bakbord. Dela i 12 bitar och forma till runda bullar. Lägg på en plåt med bakplåtspapper och låt jäsa i 30 minuter. Sätt ugnen på 225°C.</p>", "image": [] },
+      { "step": "<p>Grädda i mitten av ugnen i 10-12 minuter. Låt svalna helt.</p>", "image": [] },
+      { "step": "<p>Montera semlorna genom att skära av lock, gröpa ur, blanda med mandelmassa och fylla på med grädde. Pudra med florsocker.</p>", "image": [] }
+    ]
+  },
+    {
+    "id": "mini-semlor-recept",
+    "name": "Söta Mini-Semlor – Perfekta för Kalas",
+    "slug": "mini-semlor-recept",
+    "image": [{
+      "id": "mini-semlor-img",
+      "url": "/images/recipes/mini-semlor-recept.jpg",
+      "alt": "Ett fat fyllt med små, söta mini-semlor, perfekta som munsbitar på ett kalas."
+    }],
+    "elsaIntro": "<p>Ibland är det lilla det allra bästa! Mini-semlor är min favorit att bjuda på när det är många gäster. De är precis lika goda som sina större syskon, men perfekta som en liten munsbit till kaffet. De är bedårande, ljuvliga och försvinner från fatet på ett ögonblick!</p>",
+    "description": "<h3>Perfekta munsbitar för fika och fest</h3><p>Detta recept på <b>mini-semlor</b> är baserat på vår älskade <a href='/recept/klassiska-svenska-semlor' class='text-secondary hover:underline'>klassiska semmeldeg</a>, men anpassat för att skapa små, perfekta bakverk. De är idealiska för bufféer, barnkalas eller när du bara vill ha en liten, lagom söt belöning. Följ stegen för att få perfekt jästa och gräddade små bullar, redo att fyllas med ljuvlig mandelmassa och grädde.</p>",
+    "recipeCategory": "Bullar & Fika",
+    "recipeCuisine": "Svensk",
+    "keywords": "mini semlor, små semlor, semlor recept, baka semlor, kalas, fika",
+    "datePublished": "2025-01-20",
+    "servings": "cirka 30 st mini-semlor",
+    "prepTime": "PT40M",
+    "cookingTime": "PT8M",
+    "totalTime": "PT2H20M",
+    "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "ratingCount": "1" },
+    "nutrition": { "@type": "NutritionInformation", "calories": "Cirka 190 kcal per mini-semla" },
+    "ingredients": [
+      { "product": "Vetedeg:" },
+      { "amount": "1", "unit": "sats", "product": "Deg från receptet 'Klassiska Svenska Semlor'" },
+      { "product": "Fyllning & Montering:" },
+      { "amount": "1", "unit": "sats", "product": "Fyllning från receptet 'Hemgjord Mandelmassa'" },
+      { "amount": "5", "unit": "dl", "product": "Vispgrädde" },
+      { "amount": "", "unit": "", "product": "Florsocker" }
+    ],
+    "steps": [
+      { "step": "<p>Förbered degen enligt grundreceptet för <a href='/recept/klassiska-svenska-semlor' class='text-secondary hover:underline'>klassiska semlor</a> fram till och med andra jäsningen.</p>", "image": [] },
+      { "step": "<p>Dela degen i 30 lika stora bitar (ca 30g per bit). Rundriv varje bit till en liten, slät bulle och lägg på plåtar med bakplåtspapper.</p>", "image": [] },
+      { "step": "<p>Låt jäsa under duk i ca 60 minuter. Sätt ugnen på 225°C.</p>", "image": [] },
+      { "step": "<p>Grädda bullarna mitt i ugnen i 6-8 minuter, eller tills de är gyllenbruna. De blir klara snabbare än vanliga semlor! Låt svalna helt.</p>", "image": [] },
+      { "step": "<p>Montera dina mini-semlor precis som vanliga semlor: skär lock, gröp ur, fyll med mandelmassa och spritsa på grädde. Pudra med florsocker och servera!</p>", "image": [] }
+    ]
+  },
+  {
+    "id": "vaniljsemla-med-akta-vaniljkram",
+    "name": "Ljuvlig Vaniljsemla med Äkta Vaniljkräm",
+    "slug": "vaniljsemla-med-akta-vaniljkram",
+    "image": [{
+      "id": "vaniljsemla-img",
+      "url": "/images/recipes/vaniljsemla-med-akta-vaniljkram.jpg",
+      "alt": "En delikat vaniljsemla där den klassiska mandelmassan är utbytt mot en krämig, gul vaniljkräm."
+    }],
+    "elsaIntro": "<p>För dig som älskar vanilj lika mycket som jag (eller kanske inte är så förtjust i mandelmassa) är detta en himmelsk variant av den klassiska semlan. Den fluffiga bullen fylld med en len och intensivt smakande vaniljkräm är en kombination som smälter i munnen. En modern klassiker!</p>",
+    "description": "<h3>En Modern Twist på en Älskad Klassiker</h3><p>En <b>vaniljsemla</b> är ett fantastiskt alternativ till den traditionella semlan. Istället för mandelmassa fyller vi våra perfekta <a href='/recept/klassiska-svenska-semlor' class='text-secondary hover:underline'>semmelbullar</a> med en lyxig och len <b>vaniljkräm</b>. Detta recept visar hur du använder vårt grundrecept på <a href='/recept/hemgjord-vaniljkram' class='text-secondary hover:underline'>hemgjord vaniljkräm</a> för att skapa en oförglömlig fyllning. Resultatet är en elegant och ljuvligt god semla som garanterat kommer att bli en ny favorit.</p>",
+    "recipeCategory": "Bullar & Fika",
+    "recipeCuisine": "Svensk",
+    "keywords": "vaniljsemla, semla med vaniljkräm, semla utan mandelmassa, vanilj semla, recept",
+    "datePublished": "2025-01-21",
+    "servings": "cirka 16 st",
+    "prepTime": "PT20M",
+    "cookingTime": "PT15M",
+    "totalTime": "PT2H",
+    "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.8", "ratingCount": "1" },
+    "nutrition": { "@type": "NutritionInformation", "calories": "Cirka 360 kcal per semla" },
+    "ingredients": [
+      { "product": "Bullar:" },
+      { "amount": "1", "unit": "sats", "product": "Färdiggräddade bullar från 'Klassiska Svenska Semlor'" },
+      { "product": "Fyllning & Montering:" },
+      { "amount": "1", "unit": "sats", "product": "Hemgjord Vaniljkräm (Pastry Cream)" },
+      { "amount": "5", "unit": "dl", "product": "Vispgrädde" },
+      { "amount": "", "unit": "", "product": "Florsocker" }
+    ],
+    "steps": [
+      { "step": "<p>Förbered och baka bullarna enligt grundreceptet på <a href='/recept/klassiska-svenska-semlor' class='text-secondary hover:underline'>klassiska semlor</a>. Låt dem svalna helt.</p>", "image": [] },
+      { "step": "<p>Förbered en sats <a href='/recept/hemgjord-vaniljkram' class='text-secondary hover:underline'>hemgjord vaniljkräm</a> och se till att den är helt kall.</p>", "image": [] },
+      { "step": "<p>Skär av ett lock på varje bulle. Gröp eventuellt ur lite av inkråmet för att göra plats för fyllningen.</p>", "image": [] },
+      { "step": "<p>Fyll varje bulle generöst med den kalla vaniljkrämen.</p>", "image": [] },
+      { "step": "<p>Vispa grädden fast och spritsa den över vaniljkrämen. Lägg på locket och pudra med florsocker. Servera omedelbart!</p>", "image": [] }
+    ]
+  },
+  {
+    "id": "hetvagg-semla-i-varm-mjolk",
+    "name": "Traditionell Hetvägg – Semla i Varm Mjölk",
+    "slug": "hetvagg-semla-i-varm-mjolk",
+    "image": [{
+      "id": "hetvagg-img",
+      "url": "/images/recipes/hetvagg-semla-i-varm-mjolk.jpg",
+      "alt": "En klassisk semla serverad som hetvägg i en djup tallrik med varm, ångande mjölk och en kanelstång."
+    }],
+    "elsaIntro": "<p>Att äta semlan som 'hetvägg' är att uppleva en bit svensk mathistoria. Det är så man åt fastlagsbullen förr i tiden, och det är ett otroligt mysigt och värmande sätt att njuta av den. Den varma, kryddiga mjölken mjukar upp bullen och gifter sig perfekt med mandelmassan och grädden. En riktig vinterdröm!</p>",
+    "description": "<h3>Så gör du en klassisk Hetvägg</h3><p><b>Hetvägg</b>, eller <b>semla i varm mjölk</b>, är den ursprungliga och traditionella metoden för att servera en semla. Detta är inte ett recept på en ny bulle, utan en guide till hur du förvandlar din färdiga <a href='/recept/klassiska-svenska-semlor' class='text-secondary hover:underline'>klassiska semla</a> till en ljuvlig, varm dessert. Perfekt för en kall vinterdag när du vill ha något extra trösterikt och gott.</p>",
+    "recipeCategory": "Dessert, Fika",
+    "recipeCuisine": "Svensk",
+    "keywords": "hetvägg, semla i mjölk, semla med mjölk, fastlagsbulle, tradition",
+    "datePublished": "2025-01-22",
+    "servings": "1 portion",
+    "prepTime": "PT5M",
+    "cookingTime": "PT3M",
+    "totalTime": "PT8M",
+    "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "ratingCount": "1" },
+    "nutrition": { "@type": "NutritionInformation", "calories": "Cirka 150 kcal (endast mjölken)" },
+    "ingredients": [
+      { "amount": "1", "unit": "st", "product": "Färdigbakad semla" },
+      { "amount": "3", "unit": "dl", "product": "Mjölk (3%)" },
+      { "amount": "1", "unit": "st", "product": "Kanelstång (valfritt)" },
+      { "amount": "1", "unit": "tsk", "product": "Socker eller kardemumma (valfritt)" }
+    ],
+    "steps": [
+      { "step": "<p>Lägg din färdiga <a href='/recept/klassiska-svenska-semlor' class='text-secondary hover:underline'>semla</a> i en djup tallrik eller skål.</p>", "image": [] },
+      { "step": "<p>Värm mjölken i en kastrull tillsammans med kanelstången och eventuell extra smaksättning. Låt den bli het men inte koka.</p>", "image": [] },
+      { "step": "<p>Plocka ur kanelstången och häll försiktigt den varma mjölken runt semlan i tallriken.</p>", "image": [] },
+      { "step": "<p>Servera omedelbart och ät med sked. Njut av den värmande och ljuvliga smaken!</p>", "image": [] }
+    ]
+  }
+]
