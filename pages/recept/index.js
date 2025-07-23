@@ -1,18 +1,21 @@
+// pages/recept/index.js
+
 import React from 'react';
 import Head from 'next/head';
 import Layout from '../../layouts/layout';
 import config from '../../lib/config';
 import RecipeCard from '../../components/RecipeCard';
 import CustomPagination from '../../components/CustomPagination';
-import { getRecipe, getAllRecipes } from '../../lib/recipe';
 import replaceUndefinedWithNull from '../../lib/sanitize';
 import { Header } from 'flotiq-components-react';
-import { getCategoriesData } from '../../lib/data-fetchers';
 
-const RecipeIndexPage = ({ recipes, pageContext, allRecipes, categories }) => {
-    const pageTitle = `Alla Våra Recept | ${config.siteMetadata.title}`;
-    const pageDescription = `Bläddra bland alla ljuvliga recept på ${config.siteMetadata.title}. Hitta din nästa favoritkaka att baka!`;
-    const canonicalUrl = `${config.siteMetadata.siteUrl}/recept`;
+// تم حذف جميع استدعاءات (import) لدوال الخادم من هنا
+
+const RecipeIndexPage = ({ recipes, pageContext, allRecipes, categories, siteConfig }) => {
+    // محتوى المكون يبقى كما هو بدون أي تغيير
+    const pageTitle = `Alla Våra Recept | ${siteConfig.title}`;
+    const pageDescription = `Bläddra bland alla ljuvliga recept på ${siteConfig.title}. Hitta din nästa favoritkaka att baka!`;
+    const canonicalUrl = `${siteConfig.siteUrl}/recept`;
 
     return (
         <Layout 
@@ -20,11 +23,12 @@ const RecipeIndexPage = ({ recipes, pageContext, allRecipes, categories }) => {
             description={pageDescription} 
             allRecipesForSearch={allRecipes}
             categories={categories}
+            siteConfig={siteConfig}
         >
             <Head>
                 <link rel="canonical" href={canonicalUrl} />
                 {pageContext.numPages > 1 && (
-                    <link rel="next" href={`${config.siteMetadata.siteUrl}/recept/list/2`} />
+                    <link rel="next" href={`${siteConfig.siteUrl}/recept/list/2`} />
                 )}
             </Head>
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16">
@@ -59,12 +63,18 @@ const RecipeIndexPage = ({ recipes, pageContext, allRecipes, categories }) => {
 };
 
 export async function getStaticProps() {
-    const recipesPerPage = config.blog.postPerPage || 9;
+    // --- بداية التعديل: استدعاء الدوال هنا داخل الدالة فقط ---
+    const { getRecipe, getAllRecipes } = await import('../../lib/recipe');
+    const { getCategoriesData, getSiteConfigData } = await import('../../lib/data-fetchers');
+    const cfg = await import('../../lib/config');
+    const recipesPerPage = cfg.default.blog.postPerPage || 9;
+    // --- نهاية التعديل ---
     
-    const [recipesResponse, allRecipesResponse, categoriesData] = await Promise.all([
+    const [recipesResponse, allRecipesResponse, categoriesData, siteConfigData] = await Promise.all([
         getRecipe(1, recipesPerPage),
         getAllRecipes(),
-        getCategoriesData()
+        getCategoriesData(),
+        getSiteConfigData()
     ]);
     
     return {
@@ -76,6 +86,7 @@ export async function getStaticProps() {
             },
             allRecipes: replaceUndefinedWithNull(allRecipesResponse?.data) || [],
             categories: categoriesData || [],
+            siteConfig: siteConfigData || {}, // إضافة إعدادات الموقع
         },
         revalidate: 60,
     };

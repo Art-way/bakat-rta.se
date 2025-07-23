@@ -1,3 +1,5 @@
+// components/SearchWidget.js
+
 import React, { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
 import { SearchIcon } from '@heroicons/react/outline';
@@ -21,7 +23,7 @@ const SearchWidget = ({ allRecipesData, placeholder = "Sök recept..." }) => {
             (recipe.keywords && recipe.keywords.toLowerCase().includes(lowerCaseSearchTerm)) ||
             (recipe.ingredients && recipe.ingredients.some(ing => ing.product && ing.product.toLowerCase().includes(lowerCaseSearchTerm)))
         );
-        setSearchResults(filtered.slice(0, 5)); // Visa t.ex. max 5 resultat i dropdown
+        setSearchResults(filtered.slice(0, 5));
     }, [searchTerm, allRecipesData]);
 
     const handleInputChange = (e) => {
@@ -29,23 +31,24 @@ const SearchWidget = ({ allRecipesData, placeholder = "Sök recept..." }) => {
     };
 
     const handleResultClick = (slug) => {
-        setSearchTerm(''); // Rensa sökfältet
+        setSearchTerm('');
         setSearchResults([]);
         setIsFocused(false);
         router.push(`/recept/${slug}`);
     };
     
     const handleSearchSubmit = (e) => {
-        e.preventDefault();
+        // إذا كان الاستدعاء من حدث فأرة، نمنع السلوك الافتراضي
+        if (e && e.preventDefault) {
+            e.preventDefault();
+        }
         if (searchTerm.trim()) {
-            // Navigera till en dedikerad söksida med söktermen som query parameter
             router.push(`/sok?q=${encodeURIComponent(searchTerm.trim())}`);
             setSearchTerm('');
             setSearchResults([]);
             setIsFocused(false);
         }
     };
-
 
     return (
         <div className="relative w-full md:max-w-md">
@@ -63,7 +66,8 @@ const SearchWidget = ({ allRecipesData, placeholder = "Sök recept..." }) => {
                         value={searchTerm}
                         onChange={handleInputChange}
                         onFocus={() => setIsFocused(true)}
-                        onBlur={() => setTimeout(() => setIsFocused(false), 150)} // Delay för att tillåta klick på resultat
+                        // التأخير البسيط هنا مهم لإعطاء الوقت الكافي للنقرة
+                        onBlur={() => setTimeout(() => setIsFocused(false), 200)} 
                         autoComplete="off"
                     />
                 </div>
@@ -74,15 +78,21 @@ const SearchWidget = ({ allRecipesData, placeholder = "Sök recept..." }) => {
                     {searchResults.map((recipe) => (
                         <li
                             key={recipe.id}
-                            onClick={() => handleResultClick(recipe.slug)}
+                            // --- بداية التعديل الرئيسي ---
+                            // استبدال onClick بـ onMouseDown
+                            onMouseDown={() => handleResultClick(recipe.slug)}
+                            // --- نهاية التعديل الرئيسي ---
                             className="px-4 py-3 hover:bg-gray-100 cursor-pointer text-sm text-gray-700"
                         >
                             {recipe.name}
                         </li>
                     ))}
-                     {searchResults.length > 0 && ( // Visa "Visa alla resultat" om det finns resultat
+                     {searchResults.length > 0 && (
                         <li
-                            onClick={handleSearchSubmit}
+                            // --- بداية التعديل الرئيسي ---
+                            // استبدال onClick بـ onMouseDown
+                            onMouseDown={handleSearchSubmit}
+                            // --- نهاية التعديل الرئيسي ---
                             className="px-4 py-3 text-center bg-gray-50 hover:bg-gray-200 cursor-pointer text-sm font-semibold text-secondary"
                         >
                             Visa alla resultat för "{searchTerm}"

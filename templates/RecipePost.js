@@ -1,3 +1,5 @@
+// templates/RecipePost.js
+
 import React, { useState, useEffect, useMemo } from 'react';
 import Head from 'next/head';
 import Image from 'next/image';
@@ -8,7 +10,10 @@ import StarRating from '../components/StarRating';
 import { Header } from 'flotiq-components-react';
 import { PlusIcon, MinusIcon } from '@heroicons/react/solid';
 import RecipeInteraction from '../components/RecipeInteraction';
+import Breadcrumbs from '../components/Breadcrumbs'; // <-- استيراد المكون الجديد
+import CreamyDivider from '../components/CreamyDivider'; 
 import { useRouter } from 'next/router';
+
 const StepImage = ({ src, alt }) => {
     const [imageSrc, setImageSrc] = useState(src || '/images/placeholder.jpg');
     const handleImageError = () => {
@@ -43,13 +48,16 @@ const IngredientChecklist = ({ ingredients }) => {
                 const ingredientText = `${ingredient.amount || ''} ${ingredient.unit || ''} ${ingredient.product || ''}`.trim();
                 
                 if (!ingredient.unit && !ingredient.amount) {
-                    return (
-                        <h4 key={index} className="text-xl font-semibold text-primary mt-6 mb-3 border-b pb-2">
-                            {ingredient.product}
-                        </h4>
+                return (
+                        <div key={index} className="mt-6">
+                            <h4 className="text-xl font-bold font-display text-primary mb-0">
+                                {ingredient.product}
+                            </h4>
+                            {/* استخدام الفاصل الكريمي */}
+                            <CreamyDivider />
+                        </div>
                     );
                 }
-
                 return (
                     <div key={index}>
                         <label className="flex items-center space-x-3 cursor-pointer group">
@@ -79,18 +87,28 @@ const RecipeTemplate = ({ post, pageContext, allRecipes, categories, siteConfig 
     
     const initialMainImageUrl = post.image?.[0]?.url || '/images/placeholder.jpg';
     const [mainImageSrc, setMainImageSrc] = useState(initialMainImageUrl);
-
+    const [displayRating, setDisplayRating] = useState(post.aggregateRating);
+useEffect(() => {
+        // هذا الكود سيعمل في كل مرة تتغير فيها بيانات 'post'
+        // مما يضمن تحديث الصورة عند التنقل بين الصفحات
+        setMainImageSrc(post.image?.[0]?.url || '/images/placeholder.jpg');
+        setDisplayRating(post.aggregateRating);
+    }, [post]); // مصفوفة الاعتمادية: أعد تشغيل هذا التأثير عندما تتغير 'post'
     const handleMainImageError = () => {
         setMainImageSrc('/images/placeholder.jpg');
     };
 
+    const handleReviewSuccess = (newRatingData) => {
+        setDisplayRating(newRatingData);
+    };
+
     const recipe = post;
-       const baseServings = useMemo(() => parseBaseServings(recipe.servings), [recipe.servings]);
+    const baseServings = useMemo(() => parseBaseServings(recipe.servings), [recipe.servings]);
     const [currentServings, setCurrentServings] = useState(baseServings);
     const [scaledIngredients, setScaledIngredients] = useState(recipe.ingredients);
     const otherRecipes = pageContext.otherRecipes;
     const siteUrl = siteConfig?.siteUrl || 'https://bakatarta.se';
-       useEffect(() => {
+    useEffect(() => {
         const newServings = Number(currentServings);
         if (isNaN(newServings) || newServings <= 0) {
             setScaledIngredients(recipe.ingredients);
@@ -119,13 +137,17 @@ const RecipeTemplate = ({ post, pageContext, allRecipes, categories, siteConfig 
         setScaledIngredients(newIngredients);
     }, [currentServings, recipe.ingredients, baseServings]);
 
-    // 👇 دوال جديدة للتحكم في الأزرار
     const handleServingChange = (amount) => {
         setCurrentServings(prev => {
             const newValue = prev + amount;
-            return newValue > 0 ? newValue : 1; // لا تسمح بأن يكون العدد أقل من 1
+            return newValue > 0 ? newValue : 1;
         });
     };
+    const crumbs = [
+        { name: 'Hem', url: '/' },
+        { name: 'Recept', url: '/recept' },
+        { name: post.name, url: `${siteUrl}/recept/${post.slug}` }
+    ];
     const recipeSchema = {
         "@context": "https://schema.org/",
         "@type": "Recipe",
@@ -171,13 +193,13 @@ const RecipeTemplate = ({ post, pageContext, allRecipes, categories, siteConfig 
             })
         })) || []
     };
-     const router = useRouter();
- const currentUrl = `${siteUrl}${router.asPath}`;
+    const router = useRouter();
+    const currentUrl = `${siteUrl}${router.asPath}`;
     return (
         <Layout
             allRecipesForSearch={allRecipes}
             categories={categories}
-             siteConfig={siteConfig}
+            siteConfig={siteConfig}
             title={`${recipe.name} | ${siteConfig.title || 'bakatårta.se'}`}
             description={recipe.description.replace(/<[^>]*>?/gm, '').substring(0, 160) + '...'}
             ogImage={recipe.image?.[0]?.url}
@@ -186,7 +208,8 @@ const RecipeTemplate = ({ post, pageContext, allRecipes, categories, siteConfig 
             <Head>
                 <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(recipeSchema) }}/>
             </Head>
-            
+                        <Breadcrumbs crumbs={crumbs} />
+
             <div className="max-w-7xl mx-auto p-4 md:p-8">
                 <article className="bg-surface rounded-lg shadow-xl overflow-hidden">
                     <div className="flex flex-col lg:flex-row">
@@ -205,8 +228,8 @@ const RecipeTemplate = ({ post, pageContext, allRecipes, categories, siteConfig 
                                 {recipe.name}
                             </Header>
                             <div className="flex items-center space-x-4 mb-4 text-sm text-gray-500">
-                                {recipe.aggregateRating && <StarRating rating={recipe.aggregateRating.ratingValue} />}
-                                <span>{`(${recipe.aggregateRating?.ratingCount || 0} betyg)`}</span>
+                                {displayRating && <StarRating rating={displayRating.ratingValue} />}
+                                <span>{`(${displayRating?.ratingCount || 0} betyg)`}</span>
                             </div>
                             
                             {recipe.elsaIntro && (
@@ -280,9 +303,34 @@ const RecipeTemplate = ({ post, pageContext, allRecipes, categories, siteConfig 
                             </div>
                         </div>
                     </div>
+                      {recipe.image && recipe.image.length > 1 && (
+                        <div className="p-6 md:p-10 border-t border-gray-extra-light">
+                            <Header level={2} additionalClasses={['!font-display !text-2xl !font-bold !text-primary !mb-6']}>
+                                Fler Bilder
+                            </Header>
+                            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-6">
+                                {recipe.image.slice(1).map((img, index) => (
+                                    <div key={img.id || index} className="relative rounded-lg overflow-hidden shadow-md">
+                                        <Image
+                                            src={img.url || '/images/placeholder.jpg'}
+                                            alt={img.alt || `${recipe.name} - bild ${index + 2}`}
+                                            layout="responsive"
+                                            width={800}
+                                            height={600}
+                                            className="transition-transform duration-300 hover:scale-105"
+                                        />
+                                    </div>
+                                ))}
+                            </div>
+                        </div>
+                    )}
                     <div className="p-6 md:p-10 border-t border-gray-extra-light">
                       {recipe._id && (
-                             <RecipeInteraction recipeId={recipe._id} currentUrl={currentUrl} />
+                             <RecipeInteraction
+                                recipeId={recipe._id}
+                                currentUrl={currentUrl}
+                                onReviewSuccess={handleReviewSuccess}
+                             />
                         )}
                     </div>
                 

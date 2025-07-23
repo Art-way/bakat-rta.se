@@ -3,31 +3,37 @@ import React from 'react';
 import Head from 'next/head';
 import Footer from '../components/Footer';
 import PageHeader from '../components/Header';
-import { Poppins, Sora } from 'next/font/google';
-import { useRouter } from 'next/router';
+import { Lora, Playfair_Display, Dancing_Script } from 'next/font/google';
 
-const poppins = Poppins({
+import { useRouter } from 'next/router';
+const lora = Lora({
     subsets: ['latin'],
-    weight: ['300', '400', '500', '600'],
-    variable: '--font-poppins',
+    weight: ['400', '500', '600', '700'],
+    variable: '--font-lora',
     display: 'swap',
 });
 
-const sora = Sora({
+const playfair = Playfair_Display({
     subsets: ['latin'],
     weight: ['400', '600', '700'],
-    variable: '--font-sora',
+    variable: '--font-playfair',
     display: 'swap',
 });
 
+const dancing = Dancing_Script({
+    subsets: ['latin'],
+    weight: ['400', '700'],
+    variable: '--font-dancing',
+    display: 'swap',
+});
 // Layout الآن يقبل siteConfig كـ prop
+
 const Layout = ({
     children, additionalClass = [], title, description, ogImage, ogType, 
     allRecipesForSearch, categories, siteConfig
 }) => {
     const router = useRouter();
 
-    // استخدام البيانات الديناميكية مع قيم افتراضية
     const siteTitle = siteConfig?.title || 'bakatårta.se';
     const siteDescription = siteConfig?.description || 'Din guide till den perfekta kakan.';
     const siteUrl = siteConfig?.siteUrl || 'https://bakatarta.se';
@@ -40,7 +46,8 @@ const Layout = ({
         : `${siteUrl}/images/bakatarta-social-share.jpg`;
 
     return (
-        <main className={[`${poppins.variable} ${sora.variable} font-poppins bg-background`, ...additionalClass].join(' ')}>
+        // --- تعديل ---: تطبيق متغيرات الخطوط الجديدة
+        <main className={[`${lora.variable} ${playfair.variable} ${dancing.variable} font-body bg-background`, ...additionalClass].join(' ')}>
             <Head>
                 <title>{pageTitle}</title>
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
@@ -65,7 +72,6 @@ const Layout = ({
             <div className="min-h-screen">
                 {children}
             </div>
-            {/* الفوتر الآن يمكنه استخدام siteConfig أيضًا */}
             <Footer siteConfig={siteConfig} /> 
         </main>
     );

@@ -1,3 +1,4 @@
+// pages/recept/[slug].js
 import React from 'react';
 import RecipeTemplate from '../../templates/RecipePost';
 import { getRecipeBySlug, getAllRecipeSlugs, getAllRecipes } from '../../lib/recipe';
@@ -30,7 +31,8 @@ export async function getStaticProps({ params }) {
         return { notFound: true };
     }
 
-    const recipeData = replaceUndefinedWithNull(recipeBySlugResponse.data[0]);
+    // سطر احترازي لضمان تحويل ObjectId إلى نص بشكل صحيح
+    const recipeData = replaceUndefinedWithNull(JSON.parse(JSON.stringify(recipeBySlugResponse.data[0])));
     const currentOfficialSlug = recipeData.slug;
 
     if (currentOfficialSlug !== requestedSlug) {
@@ -73,5 +75,3 @@ export async function getStaticPaths() {
 }
 
 export default RecipeDetailPage;
-
-
